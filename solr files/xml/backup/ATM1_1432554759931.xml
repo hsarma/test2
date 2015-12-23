@@ -1,0 +1,4560 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<AggregateInventory>
+<ManagedClients ipAddress="127.0.0.1" Name="ATM3" uuid="abcd-efgh-ijkl-mnop">ATM3</ManagedClients>
+	<HardwareeInventory xmlns="http://www.ncr.com/2009/GSE/HardwareInventory" Name="Hardware">
+		<Added>
+			<DeviceClass Name="Win32_ComputerSystem">
+				<Device Name="ATM7333">
+					<Property Name="Manufacturer">INTELR</Property>
+					<Property Name="Model">AWRDACPI</Property>
+					<Property Name="NumberOfProcessors">1</Property>
+					<Property Name="Caption">ATM7333</Property>
+					<Property Name="TotalPhysicalMemory">1064816640</Property>
+					<Property Name="SystemType">X86-based PC</Property>
+					<Property Name="Description">AT/AT COMPATIBLE</Property>
+					<Property Name="CurrentTimeZone">240</Property>
+					<Property Name="DaylightInEffect"/>
+					<Property Name="Domain">ATM</Property>
+					<Property Name="Workgroup"/>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_Processor">
+				<Device Name="Intel(R) Pentium(R) 4 CPU 2.80GHz">
+					<Property Name="Manufacturer">GenuineIntel</Property>
+					<Property Name="Caption">x86 Family 15 Model 2 Stepping 9</Property>
+					<Property Name="Architecture">0</Property>
+					<Property Name="AddressWidth">32</Property>
+					<Property Name="CurrentClockSpeed">2792</Property>
+					<Property Name="ExtClock">133</Property>
+					<Property Name="Stepping">9</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_PhysicalMemory">
+				<Device Name="Physical Memory">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">Physical Memory</Property>
+					<Property Name="Capacity">1073741824</Property>
+					<Property Name="Speed"/>
+					<Property Name="FormFactor">8</Property>
+					<Property Name="Status"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_DiskDrive">
+				<Device Name="\\.\PHYSICALDRIVE0">
+					<Property Name="Manufacturer">(Standard disk drives)</Property>
+					<Property Name="Model">ST380215A</Property>
+					<Property Name="Caption">ST380215A</Property>
+					<Property Name="Partitions">1</Property>
+					<Property Name="Size">80023749120</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_LogicalDisk">
+				<Device Name="A:">
+					<Property Name="Size"/>
+					<Property Name="FreeSpace"/>
+					<Property Name="FileSystem"/>
+				</Device>
+				<Device Name="C:">
+					<Property Name="Size">80015491072</Property>
+					<Property Name="FreeSpace">75403296768</Property>
+					<Property Name="FileSystem">NTFS</Property>
+				</Device>
+				<Device Name="E:">
+					<Property Name="Size"/>
+					<Property Name="FreeSpace"/>
+					<Property Name="FileSystem"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_BaseBoard">
+				<Device Name="Base Board">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">Base Board</Property>
+					<Property Name="Model"/>
+					<Property Name="HostingBoard">True</Property>
+					<Property Name="RequiresDaughterBoard"/>
+					<Property Name="SlotLayout"/>
+					<Property Name="Version"/>
+					<Property Name="Status"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_NetworkAdapter">
+				<Device Name="Intel(R) PRO/100 VE Network Connection">
+					<Property Name="Manufacturer">Intel</Property>
+					<Property Name="AdapterType">Ethernet 802.3</Property>
+					<Property Name="AutoSense"/>
+					<Property Name="Caption">[00000001] Intel(R) PRO/100 VE Network
+						Connection</Property>
+					<Property Name="DHCPEnabled">False</Property>
+					<Property Name="DHCPServer"/>
+					<Property Name="IPAddress">
+						<Value>10.111.1.8</Value>
+					</Property>
+					<Property Name="IPSubnet">
+						<Value>255.255.255.0</Value>
+					</Property>
+					<Property Name="DefaultIPGateway">
+						<Value>10.111.1.1</Value>
+					</Property>
+					<Property Name="MACAddress">00:01:29:22:06:92</Property>
+					<Property Name="Speed"/>
+					<Property Name="NetConnectionID">Local Area Connection</Property>
+					<Property Name="NetConnectionStatus">2</Property>
+					<Property Name="Status"/>
+				</Device>
+				<Device Name="StoneGate IPsec VPN Virtual Adapter">
+					<Property Name="Manufacturer">Stonesoft Corporation</Property>
+					<Property Name="AdapterType">Ethernet 802.3</Property>
+					<Property Name="AutoSense"/>
+					<Property Name="Caption">[00000013] StoneGate IPsec VPN Virtual
+						Adapter</Property>
+					<Property Name="DHCPEnabled">False</Property>
+					<Property Name="DHCPServer"/>
+					<Property Name="IPAddress">
+						<Value>0.0.0.0</Value>
+					</Property>
+					<Property Name="IPSubnet">
+						<Value/>
+					</Property>
+					<Property Name="DefaultIPGateway"/>
+					<Property Name="MACAddress">02:00:00:00:01:00</Property>
+					<Property Name="Speed"/>
+					<Property Name="NetConnectionID">Local Area Connection 3</Property>
+					<Property Name="NetConnectionStatus">7</Property>
+					<Property Name="Status"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_FloppyDrive">
+				<Device Name="Floppy disk drive">
+					<Property Name="Manufacturer">(Standard floppy disk drives)</Property>
+					<Property Name="Caption">Floppy disk drive</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_CDROMDrive">
+				<Device Name="TSSTcorp DVD-ROM TS-H352D">
+					<Property Name="Manufacturer">(Standard CD-ROM drives)</Property>
+					<Property Name="Caption">TSSTcorp DVD-ROM TS-H352D</Property>
+					<Property Name="Drive">E:</Property>
+					<Property Name="Id">E:</Property>
+					<Property Name="TransferRate"/>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_SoundDevice">
+				<Device Name="Realtek AC'97 Audio">
+					<Property Name="Manufacturer">Realtek</Property>
+					<Property Name="Caption">Realtek AC'97 Audio</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_DisplayConfiguration">
+				<Device Name="Intel(R) 82845G By NCR Dubai">
+					<Property Name="BitsPerPel">32</Property>
+					<Property Name="Caption">Intel(R) 82845G By NCR Dubai</Property>
+					<Property Name="DisplayFrequency">60</Property>
+					<Property Name="DriverVersion">6.14.10.4342</Property>
+					<Property Name="PelsHeight">600</Property>
+					<Property Name="PelsWidth">800</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_USBController">
+				<Device Name="Intel(R) 82801DB/DBM USB Universal Host Controller - 24C2">
+					<Property Name="Caption">Intel(R) 82801DB/DBM USB Universal Host
+						Controller - 24C2</Property>
+					<Property Name="DeviceID">PCI\VEN_8086&amp;DEV_24C2&amp;SUBSYS_24C28086&amp;REV_02\3&amp;13C0B0C5&amp;0&amp;E8
+					</Property>
+					<Property Name="Manufacturer">Intel</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+				<Device Name="Intel(R) 82801DB/DBM USB Universal Host Controller - 24C4">
+					<Property Name="Caption">Intel(R) 82801DB/DBM USB Universal Host
+						Controller - 24C4</Property>
+					<Property Name="DeviceID">PCI\VEN_8086&amp;DEV_24C4&amp;SUBSYS_24C28086&amp;REV_02\3&amp;13C0B0C5&amp;0&amp;E9
+					</Property>
+					<Property Name="Manufacturer">Intel</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+				<Device Name="Intel(R) 82801DB/DBM USB Universal Host Controller - 24C7">
+					<Property Name="Caption">Intel(R) 82801DB/DBM USB Universal Host
+						Controller - 24C7</Property>
+					<Property Name="DeviceID">PCI\VEN_8086&amp;DEV_24C7&amp;SUBSYS_24C28086&amp;REV_02\3&amp;13C0B0C5&amp;0&amp;EA
+					</Property>
+					<Property Name="Manufacturer">Intel</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+				<Device Name="Intel(R) 82801DB/DBM USB 2.0 Enhanced Host Controller - 24CD">
+					<Property Name="Caption">Intel(R) 82801DB/DBM USB 2.0 Enhanced Host
+						Controller - 24CD</Property>
+					<Property Name="DeviceID">PCI\VEN_8086&amp;DEV_24CD&amp;SUBSYS_100815BD&amp;REV_02\3&amp;13C0B0C5&amp;0&amp;EF
+					</Property>
+					<Property Name="Manufacturer">Intel</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_SerialPort">
+				<Device Name="Communications Port (COM1)">
+					<Property Name="Caption">Communications Port (COM1)</Property>
+					<Property Name="DeviceID">COM1</Property>
+					<Property Name="MaxBaudRate">115200</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+				<Device Name="Communications Port (COM2)">
+					<Property Name="Caption">Communications Port (COM2)</Property>
+					<Property Name="DeviceID">COM2</Property>
+					<Property Name="MaxBaudRate">115200</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_ParallelPort">
+				<Device Name="LPT1">
+					<Property Name="Caption">LPT1</Property>
+					<Property Name="DeviceID">LPT1</Property>
+					<Property Name="Status"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_1394Controller"/>
+			<DeviceClass Name="Win32_SCSIController"/>
+			<DeviceClass Name="Win32_DesktopMonitor">
+				<Device Name="Default Monitor">
+					<Property Name="Caption">Default Monitor</Property>
+					<Property Name="DeviceID">DesktopMonitor1</Property>
+					<Property Name="DisplayType"/>
+					<Property Name="MonitorManufacturer">(Standard monitor types)</Property>
+					<Property Name="MonitorType">Default Monitor</Property>
+					<Property Name="PixelsPerXLogicalInch">96</Property>
+					<Property Name="PixelsPerYLogicalInch">96</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_Keyboard"/>
+			<DeviceClass Name="Win32_PointingDevice">
+				<Device Name="Universal Pointer Device Driver">
+					<Property Name="Manufacturer">Touch-Base</Property>
+					<Property Name="Caption">Universal Pointer Device Driver</Property>
+					<Property Name="Description">Universal Pointer Device Driver</Property>
+					<Property Name="HardwareType">Universal Pointer Device Driver</Property>
+					<Property Name="PointingType">2</Property>
+					<Property Name="Status">OK</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_SystemSlot">
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number"/>
+					<Property Name="CurrentUsage">2</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">ISA</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 0</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number"/>
+					<Property Name="CurrentUsage">2</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">ISA</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 1</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number"/>
+					<Property Name="CurrentUsage">2</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">ISA</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 2</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number"/>
+					<Property Name="CurrentUsage">2</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">ISA</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 3</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number">1</Property>
+					<Property Name="CurrentUsage">3</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">PCI0</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 4</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number">2</Property>
+					<Property Name="CurrentUsage">3</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">PCI1</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 5</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number">3</Property>
+					<Property Name="CurrentUsage">3</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">PCI2</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 6</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number">4</Property>
+					<Property Name="CurrentUsage">3</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">PCI3</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 7</Property>
+					<Property Name="Version"/>
+				</Device>
+				<Device Name="System Slot">
+					<Property Name="Manufacturer"/>
+					<Property Name="Caption">System Slot</Property>
+					<Property Name="Description">System Slot</Property>
+					<Property Name="Model"/>
+					<Property Name="Number">8</Property>
+					<Property Name="CurrentUsage">3</Property>
+					<Property Name="OtherIdentifyingInfo"/>
+					<Property Name="SerialNumber"/>
+					<Property Name="SlotDesignation">AGP</Property>
+					<Property Name="SpecialPurpose"/>
+					<Property Name="Tag">System Slot 8</Property>
+					<Property Name="Version"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Win32_Bios">
+				<Device Name="Phoenix - AwardBIOS v6.00PG">
+					<Property Name="Manufacturer">Phoenix Technologies, LTD</Property>
+					<Property Name="SMBIOSBIOSVersion">NCR PIVAT BIOS V2.01</Property>
+					<Property Name="SMBIOSMajorVersion">2</Property>
+					<Property Name="SMBIOSMinorVersion">2</Property>
+					<Property Name="BuildNumber"/>
+					<Property Name="Caption">Phoenix - AwardBIOS v6.00PG</Property>
+					<Property Name="CurrentLanguage">n|US|iso8859-1</Property>
+					<Property Name="Description">Phoenix - AwardBIOS v6.00PG</Property>
+					<Property Name="IdentificationCode"/>
+					<Property Name="InstallableLanguages">3</Property>
+					<Property Name="InstallDate"/>
+					<Property Name="LanguageEdition"/>
+					<Property Name="OtherTargetOS"/>
+					<Property Name="PrimaryBIOS">True</Property>
+					<Property Name="ReleaseDate">201207********.******+***</Property>
+					<Property Name="SerialNumber"/>
+					<Property Name="SMBIOSPresent">True</Property>
+					<Property Name="SoftwareElementID">Phoenix - AwardBIOS v6.00PG</Property>
+					<Property Name="SoftwareElementState">3</Property>
+					<Property Name="TargetOperatingSystem">0</Property>
+					<Property Name="Version">IntelR - 42302e31</Property>
+					<Property Name="Status">OK</Property>
+					<Property Name="BiosCharacteristics">
+						<Value>ISA_SUPPORTED</Value>
+						<Value>PCI_SUPPORTED</Value>
+						<Value>PLUG_AND_PLAY_SUPPORTED</Value>
+						<Value>APM_SUPPORTED</Value>
+						<Value>BIOS_UPGRADABLE</Value>
+						<Value>BIOS_SHADOWING_ALLOWED</Value>
+						<Value>ESCD_SUPPORT_AVAILABLE</Value>
+						<Value>BOOT_FROM_CD_SUPPORTED</Value>
+						<Value>SELECTABLE_BOOT_SUPPORTED</Value>
+						<Value>BIOS_ROM_SOCKETED</Value>
+						<Value>EDD_SUPPORTED</Value>
+						<Value>INT_13H_5.25/360KB_FLOPPY_SERVICES_SUPPORTED</Value>
+						<Value>INT_13H_5.25/1.2MB_FLOPPY_SERVICES_SUPPORTED</Value>
+						<Value>INT_13H_3.5/720KB_FLOPPY_SERVICES_SUPPORTED</Value>
+						<Value>INT_13H_3.5/2.88MB_FLOPPY_SERVICES_SUPPORTED</Value>
+						<Value>INT_5H_PRINT_SCREEN_SERVICE_SUPPORTED</Value>
+						<Value>INT_5H_8042_KEYBOARD_SERVICES_SUPPORTED</Value>
+						<Value>INT_14H_SERIAL_SERVICES_SUPPORTED</Value>
+						<Value>INT_17H_PRINTER_SERVICES_SUPPORTED</Value>
+						<Value>INT_10H_CGA/MONO_VIDEO_SERVICES_SUPPORTED</Value>
+						<Value>ACPI_SUPPORTED</Value>
+						<Value>USB_LEGACY_SUPPORTED</Value>
+						<Value>AGP_SUPPORTED</Value>
+						<Value>LS-120_BOOT_SUPPORTED</Value>
+						<Value>ATAPI_ZIP_DRIVE_BOOT_SUPPORTED</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+		</Added>
+		<Removed/>
+		<Modified/>
+		<Unmodified/>
+	</HardwareeInventory>
+	<SoftwareInventory xmlns="http://www.ncr.com/2009/GSE/SoftwareInventory" Named="Software">
+		<Added>
+			<InstalledSoftware>
+				<Application Name="AddressBook">
+					<Property Name="Caption">AddressBook</Property>
+					<Property Name="Name">AddressBook</Property>
+					<Property Name="Description">AddressBook</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Adobe Flash Player 11 ActiveX">
+					<Property Name="Caption">Adobe Flash Player 11 ActiveX</Property>
+					<Property Name="Name">Adobe Flash Player 11 ActiveX</Property>
+					<Property Name="Description">Adobe Flash Player 11 ActiveX</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Adobe Systems Incorporated</Property>
+					<Property Name="Version">11.0.1.152</Property>
+				</Application>
+				<Application Name="APTRA Advance NDC Package 03.04.02">
+					<Property Name="Caption">APTRA Advance NDC Package 03.04.02
+					</Property>
+					<Property Name="Name">APTRA Advance NDC Package 03.04.02
+					</Property>
+					<Property Name="Description">APTRA Advance NDC Package 03.04.02
+					</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="APTRA XFS 05.01.00 Service Pack 01.01.00 01.01.00">
+					<Property Name="Caption">APTRA XFS 05.01.00 Service Pack 01.01.00
+						01.01.00</Property>
+					<Property Name="Name">APTRA XFS 05.01.00 Service Pack 01.01.00
+						01.01.00</Property>
+					<Property Name="Description">APTRA XFS 05.01.00 Service Pack 01.01.00
+						01.01.00</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Unified Agent V1 01.00.00">
+					<Property Name="Caption">Unified Agent V1 01.00.00</Property>
+					<Property Name="Name">Unified Agent V1 01.00.00</Property>
+					<Property Name="Description">Unified Agent V1 01.00.00</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Branding">
+					<Property Name="Caption">Branding</Property>
+					<Property Name="Name">Branding</Property>
+					<Property Name="Description">Branding</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Connection Manager">
+					<Property Name="Caption">Connection Manager</Property>
+					<Property Name="Name">Connection Manager</Property>
+					<Property Name="Description">Connection Manager</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="DirectAnimation">
+					<Property Name="Caption">DirectAnimation</Property>
+					<Property Name="Name">DirectAnimation</Property>
+					<Property Name="Description">DirectAnimation</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="DirectDrawEx">
+					<Property Name="Caption">DirectDrawEx</Property>
+					<Property Name="Name">DirectDrawEx</Property>
+					<Property Name="Description">DirectDrawEx</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="DXM_Runtime">
+					<Property Name="Caption">DXM_Runtime</Property>
+					<Property Name="Name">DXM_Runtime</Property>
+					<Property Name="Description">DXM_Runtime</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Elo Touchscreen Driver 5.2.1.0 USB 32bit">
+					<Property Name="Caption">Elo Touchscreen Driver 5.2.1.0 USB 32bit
+					</Property>
+					<Property Name="Name">Elo Touchscreen Driver 5.2.1.0 USB 32bit
+					</Property>
+					<Property Name="Description">Elo Touchscreen Driver 5.2.1.0 USB 32bit
+					</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Tyco Electronics</Property>
+					<Property Name="Version">5.2.1.0 USB 32bit</Property>
+				</Application>
+				<Application Name="Fontcore">
+					<Property Name="Caption">Fontcore</Property>
+					<Property Name="Name">Fontcore</Property>
+					<Property Name="Description">Fontcore</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Touch Screen Controller Uninstall, Rev 6.43">
+					<Property Name="Caption">Touch Screen Controller Uninstall, Rev 6.43
+					</Property>
+					<Property Name="Name">Touch Screen Controller Uninstall, Rev 6.43
+					</Property>
+					<Property Name="Description">Touch Screen Controller Uninstall, Rev 6.43
+					</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="ICW">
+					<Property Name="Caption">ICW</Property>
+					<Property Name="Name">ICW</Property>
+					<Property Name="Description">ICW</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="IE40">
+					<Property Name="Caption">IE40</Property>
+					<Property Name="Name">IE40</Property>
+					<Property Name="Description">IE40</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="IE4Data">
+					<Property Name="Caption">IE4Data</Property>
+					<Property Name="Name">IE4Data</Property>
+					<Property Name="Description">IE4Data</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="IE5BAKEX">
+					<Property Name="Caption">IE5BAKEX</Property>
+					<Property Name="Name">IE5BAKEX</Property>
+					<Property Name="Description">IE5BAKEX</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="IEData">
+					<Property Name="Caption">IEData</Property>
+					<Property Name="Name">IEData</Property>
+					<Property Name="Description">IEData</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Microsoft .NET Framework 1.1">
+					<Property Name="Caption">Microsoft .NET Framework 1.1</Property>
+					<Property Name="Name">Microsoft .NET Framework 1.1</Property>
+					<Property Name="Description">Microsoft .NET Framework 1.1</Property>
+					<Property Name="IdentifyingNumber">{CB2F7EDD-9D1F-43C1-90FC-4F52EAE172A1}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft</Property>
+					<Property Name="Version">1.1.4322</Property>
+				</Application>
+				<Application Name="Microsoft .NET Framework 3.5 SP1">
+					<Property Name="Caption">Microsoft .NET Framework 3.5 SP1</Property>
+					<Property Name="Name">Microsoft .NET Framework 3.5 SP1</Property>
+					<Property Name="Description">Microsoft .NET Framework 3.5 SP1</Property>
+					<Property Name="IdentifyingNumber">{CE2CDD62-0124-36CA-84D3-9F4DCF5C5BD9}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft Corporation</Property>
+					<Property Name="Version">3.5.30729</Property>
+				</Application>
+				<Application Name="MobileOptionPack">
+					<Property Name="Caption">MobileOptionPack</Property>
+					<Property Name="Name">MobileOptionPack</Property>
+					<Property Name="Description">MobileOptionPack</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="MPlayer2">
+					<Property Name="Caption">MPlayer2</Property>
+					<Property Name="Name">MPlayer2</Property>
+					<Property Name="Description">MPlayer2</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="OutlookExpress">
+					<Property Name="Caption">OutlookExpress</Property>
+					<Property Name="Name">OutlookExpress</Property>
+					<Property Name="Description">OutlookExpress</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="PCHealth">
+					<Property Name="Caption">PCHealth</Property>
+					<Property Name="Name">PCHealth</Property>
+					<Property Name="Description">PCHealth</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="PenMount Windows Universal Driver V2.2.0.285">
+					<Property Name="Caption">PenMount Windows Universal Driver
+						V2.2.0.285</Property>
+					<Property Name="Name">PenMount Windows Universal Driver
+						V2.2.0.285</Property>
+					<Property Name="Description">PenMount Windows Universal Driver
+						V2.2.0.285</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">PenMount</Property>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="SchedulingAgent">
+					<Property Name="Caption">SchedulingAgent</Property>
+					<Property Name="Name">SchedulingAgent</Property>
+					<Property Name="Description">SchedulingAgent</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="Universal Pointer Device Driver - 04.01.06">
+					<Property Name="Caption">Universal Pointer Device Driver - 04.01.06
+					</Property>
+					<Property Name="Name">Universal Pointer Device Driver - 04.01.06
+					</Property>
+					<Property Name="Description">Universal Pointer Device Driver - 04.01.06
+					</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="WIC">
+					<Property Name="Caption">WIC</Property>
+					<Property Name="Name">WIC</Property>
+					<Property Name="Description">WIC</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="USBAcousticWaveTouchScreen">
+					<Property Name="Caption">USBAcousticWaveTouchScreen</Property>
+					<Property Name="Name">USBAcousticWaveTouchScreen</Property>
+					<Property Name="Description">USBAcousticWaveTouchScreen</Property>
+					<Property Name="IdentifyingNumber">{00D38591-CC33-476D-8E82-C1E4AFCB9397}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.01.01</Property>
+				</Application>
+				<Application Name="USBMiscellaneousInterface">
+					<Property Name="Caption">USBMiscellaneousInterface</Property>
+					<Property Name="Name">USBMiscellaneousInterface</Property>
+					<Property Name="Description">USBMiscellaneousInterface</Property>
+					<Property Name="IdentifyingNumber">{05BB0280-B54B-480A-BC49-1E34C1FC9E9E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.04.03</Property>
+				</Application>
+				<Application Name="XFS SCPM Service Provider">
+					<Property Name="Caption">XFS SCPM Service Provider</Property>
+					<Property Name="Name">XFS SCPM Service Provider</Property>
+					<Property Name="Description">XFS SCPM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{062FC28B-6A80-4A1F-BCB8-21DC2600EA7C}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">02.05.00</Property>
+				</Application>
+				<Application Name="ActiveXFS Controls">
+					<Property Name="Caption">ActiveXFS Controls</Property>
+					<Property Name="Name">ActiveXFS Controls</Property>
+					<Property Name="Description">ActiveXFS Controls</Property>
+					<Property Name="IdentifyingNumber">{0A95B23A-1B16-11D6-8089-00608CF52063}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.13.00</Property>
+				</Application>
+				<Application Name="PcSound">
+					<Property Name="Caption">PcSound</Property>
+					<Property Name="Name">PcSound</Property>
+					<Property Name="Description">PcSound</Property>
+					<Property Name="IdentifyingNumber">{0F54097C-2B84-44F5-8ECC-29012624F939}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">04.03.01</Property>
+				</Application>
+				<Application Name="SCIM_SP">
+					<Property Name="Caption">SCIM_SP</Property>
+					<Property Name="Name">SCIM_SP</Property>
+					<Property Name="Description">SCIM_SP</Property>
+					<Property Name="IdentifyingNumber">{10718FE2-88A8-421B-85B5-9173F05F7F9B}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.02.00</Property>
+				</Application>
+				<Application Name="UsbFingerPrintReader">
+					<Property Name="Caption">UsbFingerPrintReader</Property>
+					<Property Name="Name">UsbFingerPrintReader</Property>
+					<Property Name="Description">UsbFingerPrintReader</Property>
+					<Property Name="IdentifyingNumber">{11B55C7A-3FB3-4A0C-BB84-8E8985CD3BDB}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR APTRA</Property>
+					<Property Name="Version">01.02.00</Property>
+				</Application>
+				<Application Name="Business Services Interfaces">
+					<Property Name="Caption">Business Services Interfaces</Property>
+					<Property Name="Name">Business Services Interfaces</Property>
+					<Property Name="Description">Business Services Interfaces</Property>
+					<Property Name="IdentifyingNumber">{144332F6-9955-11D6-AC20-000102D9169E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.03.01</Property>
+				</Application>
+				<Application Name="Sdc40ColumnDotMatrixPrinters">
+					<Property Name="Caption">Sdc40ColumnDotMatrixPrinters</Property>
+					<Property Name="Name">Sdc40ColumnDotMatrixPrinters</Property>
+					<Property Name="Description">Sdc40ColumnDotMatrixPrinters</Property>
+					<Property Name="IdentifyingNumber">{181DBCCF-7B7C-4D0E-9F2C-BBBCF3D4B6F0}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.06</Property>
+				</Application>
+				<Application Name="USBUop">
+					<Property Name="Caption">USBUop</Property>
+					<Property Name="Name">USBUop</Property>
+					<Property Name="Description">USBUop</Property>
+					<Property Name="IdentifyingNumber">{18664F05-F838-4F5F-B87F-0ADF615D07DB}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.00</Property>
+				</Application>
+				<Application Name="SNMP Agent 3.04.01">
+					<Property Name="Caption">SNMP Agent 3.04.01</Property>
+					<Property Name="Name">SNMP Agent 3.04.01</Property>
+					<Property Name="Description">SNMP Agent 3.04.01</Property>
+					<Property Name="IdentifyingNumber">{18EB4F7E-2AFD-4858-B677-43E7A4F3C406}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.04.01</Property>
+				</Application>
+				<Application Name="Microsoft Visual C++ 2010  x86 Redistributable - 10.0.30319">
+					<Property Name="Caption">Microsoft Visual C++ 2010 x86
+						Redistributable - 10.0.30319</Property>
+					<Property Name="Name">Microsoft Visual C++ 2010 x86
+						Redistributable - 10.0.30319</Property>
+					<Property Name="Description">Microsoft Visual C++ 2010 x86
+						Redistributable - 10.0.30319</Property>
+					<Property Name="IdentifyingNumber">{196BB40D-1578-3D01-B289-BEFC77A11A1E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft Corporation</Property>
+					<Property Name="Version">01.00.00</Property>
+				</Application>
+				<Application Name="MEEICnf">
+					<Property Name="Caption">MEEICnf</Property>
+					<Property Name="Name">MEEICnf</Property>
+					<Property Name="Description">MEEICnf</Property>
+					<Property Name="IdentifyingNumber">{1AF4837B-F087-4DCF-B62C-C6AACEEB11BF}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.00</Property>
+				</Application>
+				<Application Name="USBMiniMiscellaneousInterface">
+					<Property Name="Caption">USBMiniMiscellaneousInterface</Property>
+					<Property Name="Name">USBMiniMiscellaneousInterface</Property>
+					<Property Name="Description">USBMiniMiscellaneousInterface</Property>
+					<Property Name="IdentifyingNumber">{1B66FBEA-96A9-40A6-803D-4EB6D9FA9F88}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.02.01</Property>
+				</Application>
+				<Application Name="XFS UPTR Service Provider">
+					<Property Name="Caption">XFS UPTR Service Provider</Property>
+					<Property Name="Name">XFS UPTR Service Provider</Property>
+					<Property Name="Description">XFS UPTR Service Provider</Property>
+					<Property Name="IdentifyingNumber">{1D8DDDEE-1CB0-4587-ACB2-83B88C2E2333}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">03.03.00</Property>
+				</Application>
+				<Application Name="Problem Determination Collection">
+					<Property Name="Caption">Problem Determination Collection</Property>
+					<Property Name="Name">Problem Determination Collection</Property>
+					<Property Name="Description">Problem Determination Collection</Property>
+					<Property Name="IdentifyingNumber">{1F13F743-21D6-4525-A856-97C7FC86919A}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.06.00</Property>
+				</Application>
+				<Application Name="XFS IDC Service Provider">
+					<Property Name="Caption">XFS IDC Service Provider</Property>
+					<Property Name="Name">XFS IDC Service Provider</Property>
+					<Property Name="Description">XFS IDC Service Provider</Property>
+					<Property Name="IdentifyingNumber">{22606C55-4F1A-4720-8755-8D1A5F5322D3}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.11.00</Property>
+				</Application>
+				<Application Name="RS232BNA">
+					<Property Name="Caption">RS232BNA</Property>
+					<Property Name="Name">RS232BNA</Property>
+					<Property Name="Description">RS232BNA</Property>
+					<Property Name="IdentifyingNumber">{24C9BB75-5553-11D7-869F-0060972283F5}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">95.02.00.04</Property>
+				</Application>
+				<Application Name="Data Manipulation">
+					<Property Name="Caption">Data Manipulation</Property>
+					<Property Name="Name">Data Manipulation</Property>
+					<Property Name="Description">Data Manipulation</Property>
+					<Property Name="IdentifyingNumber">{27905DB8-B1F5-11D7-BB01-00104BE77753}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.01.06</Property>
+				</Application>
+				<Application Name="PCISerial">
+					<Property Name="Caption">PCISerial</Property>
+					<Property Name="Name">PCISerial</Property>
+					<Property Name="Description">PCISerial</Property>
+					<Property Name="IdentifyingNumber">{27FAC828-E787-4A2E-9AED-6329C4B928FB}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.01.00</Property>
+				</Application>
+				<Application Name="NBADFav30402">
+					<Property Name="Caption">NBADFav30402</Property>
+					<Property Name="Name">NBADFav30402</Property>
+					<Property Name="Description">NBADFav30402</Property>
+					<Property Name="IdentifyingNumber">{2A086BB7-5B8E-46D3-A37E-F669B4D5FAEC}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">1.00.0000</Property>
+				</Application>
+				<Application Name="SdcCurrencyDispenser">
+					<Property Name="Caption">SdcCurrencyDispenser</Property>
+					<Property Name="Name">SdcCurrencyDispenser</Property>
+					<Property Name="Description">SdcCurrencyDispenser</Property>
+					<Property Name="IdentifyingNumber">{2AD76841-1A97-4C9A-B285-350A248723C9}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.04.01</Property>
+				</Application>
+				<Application Name="Targeted Messaging Client">
+					<Property Name="Caption">Targeted Messaging Client</Property>
+					<Property Name="Name">Targeted Messaging Client</Property>
+					<Property Name="Description">Targeted Messaging Client</Property>
+					<Property Name="IdentifyingNumber">{2B58ED1A-4E37-436F-AC84-7195CA516805}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.04.00</Property>
+				</Application>
+				<Application Name="APTRA Advance NDC 03.04.02 with CIC Enhanced Journaling changes 30-Jan-2011">
+					<Property Name="Caption">APTRA Advance NDC 03.04.02 with CIC
+						Enhanced Journaling changes 30-Jan-2011</Property>
+					<Property Name="Name">APTRA Advance NDC 03.04.02 with CIC
+						Enhanced Journaling changes 30-Jan-2011</Property>
+					<Property Name="Description">APTRA Advance NDC 03.04.02 with CIC
+						Enhanced Journaling changes 30-Jan-2011</Property>
+					<Property Name="IdentifyingNumber">{2C2A63CE-2B8A-4E59-9C4E-8961499EF282}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">03.04.02</Property>
+				</Application>
+				<Application Name="BPTRSP">
+					<Property Name="Caption">BPTRSP</Property>
+					<Property Name="Name">BPTRSP</Property>
+					<Property Name="Description">BPTRSP</Property>
+					<Property Name="IdentifyingNumber">{30A2AD89-6D19-4DAF-AB11-9C51C2ABCA54}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.03.03</Property>
+				</Application>
+				<Application Name="NCR PS Dubai Security Policies 17-October-2009">
+					<Property Name="Caption">NCR PS Dubai Security Policies
+						17-October-2009</Property>
+					<Property Name="Name">NCR PS Dubai Security Policies
+						17-October-2009</Property>
+					<Property Name="Description">NCR PS Dubai Security Policies
+						17-October-2009</Property>
+					<Property Name="IdentifyingNumber">{3274A422-AF33-4A52-8D92-30806758BA99}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR, Dubai</Property>
+					<Property Name="Version">1.0.0</Property>
+				</Application>
+				<Application Name="Copyfile">
+					<Property Name="Caption">Copyfile</Property>
+					<Property Name="Name">Copyfile</Property>
+					<Property Name="Description">Copyfile</Property>
+					<Property Name="IdentifyingNumber">{3367279E-8045-4779-AB90-7707B407CB7A}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.00.05</Property>
+				</Application>
+				<Application Name="PcAcousticWaveTouchScreen">
+					<Property Name="Caption">PcAcousticWaveTouchScreen</Property>
+					<Property Name="Name">PcAcousticWaveTouchScreen</Property>
+					<Property Name="Description">PcAcousticWaveTouchScreen</Property>
+					<Property Name="IdentifyingNumber">{339926BE-83BC-4ACB-983B-64E3C1AE3154}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.01.04</Property>
+				</Application>
+				<Application Name="WebFldrs XP">
+					<Property Name="Caption">WebFldrs XP</Property>
+					<Property Name="Name">WebFldrs XP</Property>
+					<Property Name="Description">WebFldrs XP</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft Corporation</Property>
+					<Property Name="Version">9.50.7523</Property>
+				</Application>
+				<Application Name="XFS GBRU-GBNA Service Provider">
+					<Property Name="Caption">XFS GBRU-GBNA Service Provider</Property>
+					<Property Name="Name">XFS GBRU-GBNA Service Provider</Property>
+					<Property Name="Description">XFS GBRU-GBNA Service Provider</Property>
+					<Property Name="IdentifyingNumber">{37CE8C6A-6C62-45E0-8421-2A1B1864C177}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">92.04.01.01</Property>
+				</Application>
+				<Application Name="UsbFraudDetection">
+					<Property Name="Caption">UsbFraudDetection</Property>
+					<Property Name="Name">UsbFraudDetection</Property>
+					<Property Name="Description">UsbFraudDetection</Property>
+					<Property Name="IdentifyingNumber">{38DD436E-094E-4721-B681-3381BFBFC5DC}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR APTRA</Property>
+					<Property Name="Version">01.00.00</Property>
+				</Application>
+				<Application Name="Personalisation Client">
+					<Property Name="Caption">Personalisation Client</Property>
+					<Property Name="Name">Personalisation Client</Property>
+					<Property Name="Description">Personalisation Client</Property>
+					<Property Name="IdentifyingNumber">{39286C05-0B28-4BD5-9D3E-C0F5BAC52FF3}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.02.00</Property>
+				</Application>
+				<Application Name="ECB6Database">
+					<Property Name="Caption">ECB6Database</Property>
+					<Property Name="Name">ECB6Database</Property>
+					<Property Name="Description">ECB6Database</Property>
+					<Property Name="IdentifyingNumber">{3B7CFC59-ECF3-4200-9BD9-DACFFBBB938F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.01.02</Property>
+				</Application>
+				<Application Name=".NET WCF Runtime">
+					<Property Name="Caption">.NET WCF Runtime</Property>
+					<Property Name="Name">.NET WCF Runtime</Property>
+					<Property Name="Description">.NET WCF Runtime</Property>
+					<Property Name="IdentifyingNumber">{3FBF0608-12D3-4623-95F5-742BE0B53842}
+					</Property>
+					<Property Name="InstallDate">20130616</Property>
+					<Property Name="InstallDate2">20130616000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.00.00</Property>
+				</Application>
+				<Application Name="Pc40ColumnThermalPrinters">
+					<Property Name="Caption">Pc40ColumnThermalPrinters</Property>
+					<Property Name="Name">Pc40ColumnThermalPrinters</Property>
+					<Property Name="Description">Pc40ColumnThermalPrinters</Property>
+					<Property Name="IdentifyingNumber">{421BBC0A-B6B0-494E-BC74-04DB88C36ACA}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">93.02.03.02</Property>
+				</Application>
+				<Application Name="McAfee Solidifier">
+					<Property Name="Caption">McAfee Solidifier</Property>
+					<Property Name="Name">McAfee Solidifier</Property>
+					<Property Name="Description">McAfee Solidifier</Property>
+					<Property Name="IdentifyingNumber">{432DB9E4-6388-432F-9ADB-61E8782F4593}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">McAfee, Inc.</Property>
+					<Property Name="Version">04.02.00</Property>
+				</Application>
+				<Application Name="SdcMiscellaneousInterface">
+					<Property Name="Caption">SdcMiscellaneousInterface</Property>
+					<Property Name="Name">SdcMiscellaneousInterface</Property>
+					<Property Name="Description">SdcMiscellaneousInterface</Property>
+					<Property Name="IdentifyingNumber">{44A3A427-70CC-4AAF-BEA7-4158EE0E7103}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.05</Property>
+				</Application>
+				<Application Name="Mode Switch">
+					<Property Name="Caption">Mode Switch</Property>
+					<Property Name="Name">Mode Switch</Property>
+					<Property Name="Description">Mode Switch</Property>
+					<Property Name="IdentifyingNumber">{44C06257-33ED-4658-8528-085EDAB00A0B}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.06.01</Property>
+				</Application>
+				<Application Name="USB80MM">
+					<Property Name="Caption">USB80MM</Property>
+					<Property Name="Name">USB80MM</Property>
+					<Property Name="Description">USB80MM</Property>
+					<Property Name="IdentifyingNumber">{45FFC4B0-D2F6-444F-9E92-8BBBD814562B}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">02.06.00</Property>
+				</Application>
+				<Application Name="WMIDProv">
+					<Property Name="Caption">WMIDProv</Property>
+					<Property Name="Name">WMIDProv</Property>
+					<Property Name="Description">WMIDProv</Property>
+					<Property Name="IdentifyingNumber">{46B3ABB0-94C3-4446-A702-1AA529E55C9A}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.02.03</Property>
+				</Application>
+				<Application Name="Windows Communication Foundation">
+					<Property Name="Caption">Windows Communication Foundation</Property>
+					<Property Name="Name">Windows Communication Foundation</Property>
+					<Property Name="Description">Windows Communication Foundation</Property>
+					<Property Name="IdentifyingNumber">{491DD792-AD81-429C-9EB4-86DD3D22E333}
+					</Property>
+					<Property Name="InstallDate">20130616</Property>
+					<Property Name="InstallDate2">20130616000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft Corporation</Property>
+					<Property Name="Version">3.0.04506.30</Property>
+				</Application>
+				<Application Name="RS232BarcodeReader">
+					<Property Name="Caption">RS232BarcodeReader</Property>
+					<Property Name="Name">RS232BarcodeReader</Property>
+					<Property Name="Description">RS232BarcodeReader</Property>
+					<Property Name="IdentifyingNumber">{4B9F0FE7-8E61-423E-9EDE-D41C5D8B1830}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.00.06</Property>
+				</Application>
+				<Application Name="USB Loader Service">
+					<Property Name="Caption">USB Loader Service</Property>
+					<Property Name="Name">USB Loader Service</Property>
+					<Property Name="Description">USB Loader Service</Property>
+					<Property Name="IdentifyingNumber">{4EAEAE3E-B7EA-4CB4-89C4-A7DFB63BCD87}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.01.04</Property>
+				</Application>
+				<Application Name="XFS SIU Service Provider">
+					<Property Name="Caption">XFS SIU Service Provider</Property>
+					<Property Name="Name">XFS SIU Service Provider</Property>
+					<Property Name="Description">XFS SIU Service Provider</Property>
+					<Property Name="IdentifyingNumber">{505005FC-9433-4378-AC66-8186B5ABCDA8}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.09.01</Property>
+				</Application>
+				<Application Name="SdcMotorisedCardReaderWriter">
+					<Property Name="Caption">SdcMotorisedCardReaderWriter</Property>
+					<Property Name="Name">SdcMotorisedCardReaderWriter</Property>
+					<Property Name="Description">SdcMotorisedCardReaderWriter</Property>
+					<Property Name="IdentifyingNumber">{505732F4-AD18-47FE-A1D8-82CA3E024264}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.02.01</Property>
+				</Application>
+				<Application Name="PcQwertyKeyboard">
+					<Property Name="Caption">PcQwertyKeyboard</Property>
+					<Property Name="Name">PcQwertyKeyboard</Property>
+					<Property Name="Description">PcQwertyKeyboard</Property>
+					<Property Name="IdentifyingNumber">{556B33D6-93F6-4754-BFA1-DD04B21A4784}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.01.02</Property>
+				</Application>
+				<Application Name="XFS EDEP Service Provider">
+					<Property Name="Caption">XFS EDEP Service Provider</Property>
+					<Property Name="Name">XFS EDEP Service Provider</Property>
+					<Property Name="Description">XFS EDEP Service Provider</Property>
+					<Property Name="IdentifyingNumber">{5A34F2CB-93EC-4DC9-9B83-FBD5B77BCA9B}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.05.00</Property>
+				</Application>
+				<Application Name="Self-Service Support Keyboards Configuration">
+					<Property Name="Caption">Self-Service Support Keyboards
+						Configuration</Property>
+					<Property Name="Name">Self-Service Support Keyboards
+						Configuration</Property>
+					<Property Name="Description">Self-Service Support Keyboards
+						Configuration</Property>
+					<Property Name="IdentifyingNumber">{5AB76BBF-4B2A-4CD3-B3F3-2E0CEC7A5DC6}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">04.01.02</Property>
+				</Application>
+				<Application Name="OPTRSP">
+					<Property Name="Caption">OPTRSP</Property>
+					<Property Name="Name">OPTRSP</Property>
+					<Property Name="Description">OPTRSP</Property>
+					<Property Name="IdentifyingNumber">{5C57B573-17AD-451F-8960-5C2488C53960}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.04.00</Property>
+				</Application>
+				<Application Name="CAM II Ver 92.02.05 for AANDC 03.04.01 Nov-29-2010">
+					<Property Name="Caption">CAM II Ver 92.02.05 for AANDC 03.04.01
+						Nov-29-2010</Property>
+					<Property Name="Name">CAM II Ver 92.02.05 for AANDC 03.04.01
+						Nov-29-2010</Property>
+					<Property Name="Description">CAM II Ver 92.02.05 for AANDC 03.04.01
+						Nov-29-2010</Property>
+					<Property Name="IdentifyingNumber">{5CBEEA84-5AC1-4664-A637-CE60A1D2840D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">1.0.0</Property>
+				</Application>
+				<Application Name="XFS CIM Service Provider">
+					<Property Name="Caption">XFS CIM Service Provider</Property>
+					<Property Name="Name">XFS CIM Service Provider</Property>
+					<Property Name="Description">XFS CIM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{5CDB2BB5-F637-4A7E-B713-AED4F63E7335}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.04.00</Property>
+				</Application>
+				<Application Name="Sentinel System Driver Installer 7.4.0">
+					<Property Name="Caption">Sentinel System Driver Installer 7.4.0
+					</Property>
+					<Property Name="Name">Sentinel System Driver Installer 7.4.0
+					</Property>
+					<Property Name="Description">Sentinel System Driver Installer 7.4.0
+					</Property>
+					<Property Name="IdentifyingNumber">{62B74257-2E1B-48FB-843C-0FBA43FE1327}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">SafeNet, Inc.</Property>
+					<Property Name="Version">02.00.00</Property>
+				</Application>
+				<Application Name="USB Encrypting Pin Pad">
+					<Property Name="Caption">USB Encrypting Pin Pad</Property>
+					<Property Name="Name">USB Encrypting Pin Pad</Property>
+					<Property Name="Description">USB Encrypting Pin Pad</Property>
+					<Property Name="IdentifyingNumber">{64D13767-9423-44A3-9AEA-167B834F44DE}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.03.01</Property>
+				</Application>
+				<Application Name="Content Provider for APTRA Promote">
+					<Property Name="Caption">Content Provider for APTRA Promote
+					</Property>
+					<Property Name="Name">Content Provider for APTRA Promote
+					</Property>
+					<Property Name="Description">Content Provider for APTRA Promote
+					</Property>
+					<Property Name="IdentifyingNumber">{6B6AFE18-9324-4DF7-BE7A-DAD9A1C3A16D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.07.00</Property>
+				</Application>
+				<Application Name="XFS PIN Service Provider">
+					<Property Name="Caption">XFS PIN Service Provider</Property>
+					<Property Name="Name">XFS PIN Service Provider</Property>
+					<Property Name="Description">XFS PIN Service Provider</Property>
+					<Property Name="IdentifyingNumber">{6B9E4C56-4FA3-4C80-9574-467D24D1EE7F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR </Property>
+					<Property Name="Version">03.09.01</Property>
+				</Application>
+				<Application Name="RS232IMCRW">
+					<Property Name="Caption">RS232IMCRW</Property>
+					<Property Name="Name">RS232IMCRW</Property>
+					<Property Name="Description">RS232IMCRW</Property>
+					<Property Name="IdentifyingNumber">{6DA338C7-69F1-48C1-ADD3-1419773FD359}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.00</Property>
+				</Application>
+				<Application Name="Media Dependencies">
+					<Property Name="Caption">Media Dependencies</Property>
+					<Property Name="Name">Media Dependencies</Property>
+					<Property Name="Description">Media Dependencies</Property>
+					<Property Name="IdentifyingNumber">{6EBFF098-14A1-4603-A65D-C2752C3222D3}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.00.03</Property>
+				</Application>
+				<Application Name="XFS CAM Service Provider">
+					<Property Name="Caption">XFS CAM Service Provider</Property>
+					<Property Name="Name">XFS CAM Service Provider</Property>
+					<Property Name="Description">XFS CAM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{6F305AD5-11E9-497B-B287-DCFF7CDB733E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.00</Property>
+				</Application>
+				<Application Name="RS232ExteriorTouchScreen">
+					<Property Name="Caption">RS232ExteriorTouchScreen</Property>
+					<Property Name="Name">RS232ExteriorTouchScreen</Property>
+					<Property Name="Description">RS232ExteriorTouchScreen</Property>
+					<Property Name="IdentifyingNumber">{75D7DAB2-1376-487A-83EA-23F974536327}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.05.00</Property>
+				</Application>
+				<Application Name="NCR APTRA Dialogs">
+					<Property Name="Caption">NCR APTRA Dialogs</Property>
+					<Property Name="Name">NCR APTRA Dialogs</Property>
+					<Property Name="Description">NCR APTRA Dialogs</Property>
+					<Property Name="IdentifyingNumber">{75DC3229-0675-11D6-AEE3-006008788CD2}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.00.03</Property>
+				</Application>
+				<Application Name="SdcRs232">
+					<Property Name="Caption">SdcRs232</Property>
+					<Property Name="Name">SdcRs232</Property>
+					<Property Name="Description">SdcRs232</Property>
+					<Property Name="IdentifyingNumber">{78D58FA1-5BCE-4D69-8552-4753136204D7}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.03</Property>
+				</Application>
+				<Application Name="XFS Manager">
+					<Property Name="Caption">XFS Manager</Property>
+					<Property Name="Name">XFS Manager</Property>
+					<Property Name="Description">XFS Manager</Property>
+					<Property Name="IdentifyingNumber">{7D4B1A8A-863E-4930-87BE-3BBCBC80F412}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR </Property>
+					<Property Name="Version">03.08.01</Property>
+				</Application>
+				<Application Name="Keyboard/Mouse SSPB Kernel Subsystem">
+					<Property Name="Caption">Keyboard/Mouse SSPB Kernel Subsystem
+					</Property>
+					<Property Name="Name">Keyboard/Mouse SSPB Kernel Subsystem
+					</Property>
+					<Property Name="Description">Keyboard/Mouse SSPB Kernel Subsystem
+					</Property>
+					<Property Name="IdentifyingNumber">{7D760829-2B92-11D6-989C-00D0B759864F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.05.05</Property>
+				</Application>
+				<Application Name="XFS CDM Service Provider">
+					<Property Name="Caption">XFS CDM Service Provider</Property>
+					<Property Name="Name">XFS CDM Service Provider</Property>
+					<Property Name="Description">XFS CDM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{8342613E-EA89-409F-BE1F-46D5F4837C57}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">04.04.01</Property>
+				</Application>
+				<Application Name="XFS PTR Service Provider">
+					<Property Name="Caption">XFS PTR Service Provider</Property>
+					<Property Name="Name">XFS PTR Service Provider</Property>
+					<Property Name="Description">XFS PTR Service Provider</Property>
+					<Property Name="IdentifyingNumber">{83CE7497-02B2-4691-84E7-19D83CFDA087}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.09.00</Property>
+				</Application>
+				<Application Name="NCR Silent Debug Logs Debug Version 1.8 04-December-2009">
+					<Property Name="Caption">NCR Silent Debug Logs Debug Version 1.8
+						04-December-2009</Property>
+					<Property Name="Name">NCR Silent Debug Logs Debug Version 1.8
+						04-December-2009</Property>
+					<Property Name="Description">NCR Silent Debug Logs Debug Version 1.8
+						04-December-2009</Property>
+					<Property Name="IdentifyingNumber">{84E8A734-5789-49A8-8DC2-2CDF0B158430}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Dubai</Property>
+					<Property Name="Version">1.0.0</Property>
+				</Application>
+				<Application Name="USBCurrencyDispenser">
+					<Property Name="Caption">USBCurrencyDispenser</Property>
+					<Property Name="Name">USBCurrencyDispenser</Property>
+					<Property Name="Description">USBCurrencyDispenser</Property>
+					<Property Name="IdentifyingNumber">{88075C8F-E7B6-42E0-A5A0-C6C1DD15B072}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.06.02</Property>
+				</Application>
+				<Application Name="Intel(R) Extreme Graphics Driver">
+					<Property Name="Caption">Intel(R) Extreme Graphics Driver</Property>
+					<Property Name="Name">Intel(R) Extreme Graphics Driver</Property>
+					<Property Name="Description">Intel(R) Extreme Graphics Driver</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="DPMSP">
+					<Property Name="Caption">DPMSP</Property>
+					<Property Name="Name">DPMSP</Property>
+					<Property Name="Description">DPMSP</Property>
+					<Property Name="IdentifyingNumber">{8B2FF187-EB7F-4A8F-B692-2AA5A821BE65}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.02.00</Property>
+				</Application>
+				<Application Name="FeatureSupport">
+					<Property Name="Caption">FeatureSupport</Property>
+					<Property Name="Name">FeatureSupport</Property>
+					<Property Name="Description">FeatureSupport</Property>
+					<Property Name="IdentifyingNumber">{8D85442D-5F37-4A5E-973A-1D96B60242E0}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.05.01</Property>
+				</Application>
+				<Application Name="RS232PCDIPCardReader">
+					<Property Name="Caption">RS232PCDIPCardReader</Property>
+					<Property Name="Name">RS232PCDIPCardReader</Property>
+					<Property Name="Description">RS232PCDIPCardReader</Property>
+					<Property Name="IdentifyingNumber">{8DB9280C-AAE7-495A-B89D-148B5C1511C5}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.04</Property>
+				</Application>
+				<Application Name="PcMiscellaneousInterface">
+					<Property Name="Caption">PcMiscellaneousInterface</Property>
+					<Property Name="Name">PcMiscellaneousInterface</Property>
+					<Property Name="Description">PcMiscellaneousInterface</Property>
+					<Property Name="IdentifyingNumber">{8E558C3D-5E45-464E-B3FA-C80C75909789}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.05</Property>
+				</Application>
+				<Application Name="UsbSmartCardReader">
+					<Property Name="Caption">UsbSmartCardReader</Property>
+					<Property Name="Name">UsbSmartCardReader</Property>
+					<Property Name="Description">UsbSmartCardReader</Property>
+					<Property Name="IdentifyingNumber">{93D000FC-2723-44F1-BF6A-BF9FC704D42E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR APTRA</Property>
+					<Property Name="Version">01.02.03</Property>
+				</Application>
+				<Application Name="PcMonitor">
+					<Property Name="Caption">PcMonitor</Property>
+					<Property Name="Name">PcMonitor</Property>
+					<Property Name="Description">PcMonitor</Property>
+					<Property Name="IdentifyingNumber">{972F3431-7CB3-4A32-B2E5-65933B0A6B95}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.02.03</Property>
+				</Application>
+				<Application Name="TouchScreens">
+					<Property Name="Caption">TouchScreens</Property>
+					<Property Name="Name">TouchScreens</Property>
+					<Property Name="Description">TouchScreens</Property>
+					<Property Name="IdentifyingNumber">{979B47E1-5E05-4C05-A297-C33C1101838B}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.04</Property>
+				</Application>
+				<Application Name="XFS VDM Service Provider">
+					<Property Name="Caption">XFS VDM Service Provider</Property>
+					<Property Name="Name">XFS VDM Service Provider</Property>
+					<Property Name="Description">XFS VDM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{9B5C7C97-FC04-4453-BF02-19E7D3502BBB}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.08.00</Property>
+				</Application>
+				<Application Name="3rd Party Runtime">
+					<Property Name="Caption">3rd Party Runtime</Property>
+					<Property Name="Name">3rd Party Runtime</Property>
+					<Property Name="Description">3rd Party Runtime</Property>
+					<Property Name="IdentifyingNumber">{9BB70B2A-05C3-4AA9-AFC6-D4839F243F8A}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">05.06.00</Property>
+				</Application>
+				<Application Name="SdcBape">
+					<Property Name="Caption">SdcBape</Property>
+					<Property Name="Name">SdcBape</Property>
+					<Property Name="Description">SdcBape</Property>
+					<Property Name="IdentifyingNumber">{9EAF8560-58B2-4D11-86EF-0ADA70671B7F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">05.05.01</Property>
+				</Application>
+				<Application Name="XFS Contactless Card Reader Service Provider">
+					<Property Name="Caption">XFS Contactless Card Reader Service
+						Provider</Property>
+					<Property Name="Name">XFS Contactless Card Reader Service
+						Provider</Property>
+					<Property Name="Description">XFS Contactless Card Reader Service
+						Provider</Property>
+					<Property Name="IdentifyingNumber">{A2344DD4-A1FF-4E25-9509-94E579DFC6E0}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Default Company Name</Property>
+					<Property Name="Version">01.02.00</Property>
+				</Application>
+				<Application Name="Microsoft .NET Framework 3.0 Service Pack 2">
+					<Property Name="Caption">Microsoft .NET Framework 3.0 Service Pack 2
+					</Property>
+					<Property Name="Name">Microsoft .NET Framework 3.0 Service Pack 2
+					</Property>
+					<Property Name="Description">Microsoft .NET Framework 3.0 Service Pack 2
+					</Property>
+					<Property Name="IdentifyingNumber">{A3051CD0-2F64-3813-A88D-B8DCCDE8F8C7}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft Corporation</Property>
+					<Property Name="Version">3.2.30729</Property>
+				</Application>
+				<Application Name="SNMP Master Agent 01.02.00">
+					<Property Name="Caption">SNMP Master Agent 01.02.00</Property>
+					<Property Name="Name">SNMP Master Agent 01.02.00</Property>
+					<Property Name="Description">SNMP Master Agent 01.02.00</Property>
+					<Property Name="IdentifyingNumber">{A3284C62-DA36-43A5-A13D-1F67A5CC0530}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.02.00</Property>
+				</Application>
+				<Application Name=".NET Assemblies for Advance NDC">
+					<Property Name="Caption">.NET Assemblies for Advance NDC</Property>
+					<Property Name="Name">.NET Assemblies for Advance NDC</Property>
+					<Property Name="Description">.NET Assemblies for Advance NDC</Property>
+					<Property Name="IdentifyingNumber">{A4BF3273-8321-410C-B17C-8AD37B230CBE}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.00.02</Property>
+				</Application>
+				<Application Name="SdcCurrencyDispenser2">
+					<Property Name="Caption">SdcCurrencyDispenser2</Property>
+					<Property Name="Name">SdcCurrencyDispenser2</Property>
+					<Property Name="Description">SdcCurrencyDispenser2</Property>
+					<Property Name="IdentifyingNumber">{A8A6DAFD-F465-4518-8BE6-2FDDF30ED56E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.01</Property>
+				</Application>
+				<Application Name="Serial Detector">
+					<Property Name="Caption">Serial Detector</Property>
+					<Property Name="Name">Serial Detector</Property>
+					<Property Name="Description">Serial Detector</Property>
+					<Property Name="IdentifyingNumber">{ADA8A992-3C6C-4757-A90F-FBB498F66B47}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.05.02</Property>
+				</Application>
+				<Application Name="SdcEop">
+					<Property Name="Caption">SdcEop</Property>
+					<Property Name="Name">SdcEop</Property>
+					<Property Name="Description">SdcEop</Property>
+					<Property Name="IdentifyingNumber">{AE6141E5-6597-410A-9D55-C1AB20F525F3}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.01.01</Property>
+				</Application>
+				<Application Name="HICS Interfaces">
+					<Property Name="Caption">HICS Interfaces</Property>
+					<Property Name="Name">HICS Interfaces</Property>
+					<Property Name="Description">HICS Interfaces</Property>
+					<Property Name="IdentifyingNumber">{B010DAA3-E9F0-45A1-941A-2AC9E78CDAC1}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.04</Property>
+				</Application>
+				<Application Name="MOPSP">
+					<Property Name="Caption">MOPSP</Property>
+					<Property Name="Name">MOPSP</Property>
+					<Property Name="Description">MOPSP</Property>
+					<Property Name="IdentifyingNumber">{B14F3F86-9205-4539-9E25-E1E880517197}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">04.02.02</Property>
+				</Application>
+				<Application Name="UsbCameraSystem">
+					<Property Name="Caption">UsbCameraSystem</Property>
+					<Property Name="Name">UsbCameraSystem</Property>
+					<Property Name="Description">UsbCameraSystem</Property>
+					<Property Name="IdentifyingNumber">{B33FBB30-7662-42E6-9D09-DBA7164B6FD2}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR APTRA</Property>
+					<Property Name="Version">01.00.01</Property>
+				</Application>
+				<Application Name="PresentationClient">
+					<Property Name="Caption">PresentationClient</Property>
+					<Property Name="Name">PresentationClient</Property>
+					<Property Name="Description">PresentationClient</Property>
+					<Property Name="IdentifyingNumber">{B5246592-16DA-4638-8E42-241CC0CF411A}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.09.01</Property>
+				</Application>
+				<Application Name="XFS Logical Name Resolver">
+					<Property Name="Caption">XFS Logical Name Resolver</Property>
+					<Property Name="Name">XFS Logical Name Resolver</Property>
+					<Property Name="Description">XFS Logical Name Resolver</Property>
+					<Property Name="IdentifyingNumber">{B5D40803-83F0-4081-A390-CEE4F1D2E25D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.02.02</Property>
+				</Application>
+				<Application Name="USB2DBarcodeReader">
+					<Property Name="Caption">USB2DBarcodeReader</Property>
+					<Property Name="Name">USB2DBarcodeReader</Property>
+					<Property Name="Description">USB2DBarcodeReader</Property>
+					<Property Name="IdentifyingNumber">{B764E8D8-F84E-4100-A660-3985BA587CEC}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR APTRA</Property>
+					<Property Name="Version">01.04.01</Property>
+				</Application>
+				<Application Name="USB Encrypting Pin Pad 2">
+					<Property Name="Caption">USB Encrypting Pin Pad 2</Property>
+					<Property Name="Name">USB Encrypting Pin Pad 2</Property>
+					<Property Name="Description">USB Encrypting Pin Pad 2</Property>
+					<Property Name="IdentifyingNumber">{B840D9D7-74DE-4654-A4A7-21DBCF89392E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.05.02</Property>
+				</Application>
+				<Application Name="USBTouchScreen">
+					<Property Name="Caption">USBTouchScreen</Property>
+					<Property Name="Name">USBTouchScreen</Property>
+					<Property Name="Description">USBTouchScreen</Property>
+					<Property Name="IdentifyingNumber">{B99557E6-FF52-4A46-8571-2C4D90633A6B}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.03.01</Property>
+				</Application>
+				<Application Name="Advance NDC">
+					<Property Name="Caption">Advance NDC</Property>
+					<Property Name="Name">Advance NDC</Property>
+					<Property Name="Description">Advance NDC</Property>
+					<Property Name="IdentifyingNumber">{BADD98CD-25E1-4E51-923F-540B0E605D08}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.04.00</Property>
+				</Application>
+				<Application Name="CPM eCR-PLUS Runtime">
+					<Property Name="Caption">CPM eCR-PLUS Runtime</Property>
+					<Property Name="Name">CPM eCR-PLUS Runtime</Property>
+					<Property Name="Description">CPM eCR-PLUS Runtime</Property>
+					<Property Name="IdentifyingNumber">{BB02B06A-FD4B-4FB1-BBAC-66D1DB062982}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.00.03</Property>
+				</Application>
+				<Application Name="Self-Service Support Runtime Core">
+					<Property Name="Caption">Self-Service Support Runtime Core
+					</Property>
+					<Property Name="Name">Self-Service Support Runtime Core
+					</Property>
+					<Property Name="Description">Self-Service Support Runtime Core
+					</Property>
+					<Property Name="IdentifyingNumber">{BF45A903-74EE-4EC9-B452-5DDABD21028D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.11.01</Property>
+				</Application>
+				<Application Name="Microsoft .NET Framework 2.0 Service Pack 2">
+					<Property Name="Caption">Microsoft .NET Framework 2.0 Service Pack 2
+					</Property>
+					<Property Name="Name">Microsoft .NET Framework 2.0 Service Pack 2
+					</Property>
+					<Property Name="Description">Microsoft .NET Framework 2.0 Service Pack 2
+					</Property>
+					<Property Name="IdentifyingNumber">{C09FB3CD-3D0C-3F2D-899A-6A1D67F2073F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Microsoft Corporation</Property>
+					<Property Name="Version">2.2.30729</Property>
+				</Application>
+				<Application Name="XFS CPM Service Provider">
+					<Property Name="Caption">XFS CPM Service Provider</Property>
+					<Property Name="Name">XFS CPM Service Provider</Property>
+					<Property Name="Description">XFS CPM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{C169262E-8D7C-4994-978A-73735DAB162E}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.08.01</Property>
+				</Application>
+				<Application Name="Unified Agent Web Service Runtime">
+					<Property Name="Caption">Unified Agent Web Service Runtime
+					</Property>
+					<Property Name="Name">Unified Agent Web Service Runtime
+					</Property>
+					<Property Name="Description">Unified Agent Web Service Runtime
+					</Property>
+					<Property Name="IdentifyingNumber">{C4179FB0-8483-4DD5-9752-BF071F11E946}
+					</Property>
+					<Property Name="InstallDate">20130619</Property>
+					<Property Name="InstallDate2">20130619000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.02.00</Property>
+				</Application>
+				<Application Name="USBGDSTouchscreen">
+					<Property Name="Caption">USBGDSTouchscreen</Property>
+					<Property Name="Name">USBGDSTouchscreen</Property>
+					<Property Name="Description">USBGDSTouchscreen</Property>
+					<Property Name="IdentifyingNumber">{C49C9CDA-4D29-4000-9D54-D61712191370}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.00.05</Property>
+				</Application>
+				<Application Name="DevMan">
+					<Property Name="Caption">DevMan</Property>
+					<Property Name="Name">DevMan</Property>
+					<Property Name="Description">DevMan</Property>
+					<Property Name="IdentifyingNumber">{D10D20DF-FB1F-434E-B385-0BA065EC7B61}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.04.02</Property>
+				</Application>
+				<Application Name="Advance NDC Display Manager 03.00.03">
+					<Property Name="Caption">Advance NDC Display Manager 03.00.03
+					</Property>
+					<Property Name="Name">Advance NDC Display Manager 03.00.03
+					</Property>
+					<Property Name="Description">Advance NDC Display Manager 03.00.03
+					</Property>
+					<Property Name="IdentifyingNumber">{D620BA4F-1F68-48EC-8399-59B326213592}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR FSG Ltd.</Property>
+					<Property Name="Version">03.00.04</Property>
+				</Application>
+				<Application Name="Resource Manager">
+					<Property Name="Caption">Resource Manager</Property>
+					<Property Name="Name">Resource Manager</Property>
+					<Property Name="Description">Resource Manager</Property>
+					<Property Name="IdentifyingNumber">{DCC8BA77-400C-11D6-822D-00A0C9FB5D3D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">02.02.00</Property>
+				</Application>
+				<Application Name="McAfee Agent">
+					<Property Name="Caption">McAfee Agent</Property>
+					<Property Name="Name">McAfee Agent</Property>
+					<Property Name="Description">McAfee Agent</Property>
+					<Property Name="IdentifyingNumber">{DE91C193-2611-4BD3-A9F9-DF589C572565}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">McAfee, Inc.</Property>
+					<Property Name="Version">4.6.0.2292</Property>
+				</Application>
+				<Application Name="StoneGate IPsec VPN 5.3.1">
+					<Property Name="Caption">StoneGate IPsec VPN 5.3.1</Property>
+					<Property Name="Name">StoneGate IPsec VPN 5.3.1</Property>
+					<Property Name="Description">StoneGate IPsec VPN 5.3.1</Property>
+					<Property Name="IdentifyingNumber">{DF854AC7-59F9-4193-AE7A-4049081DC3BC}
+					</Property>
+					<Property Name="InstallDate">20130612</Property>
+					<Property Name="InstallDate2">20130612000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Stonesoft Corporation</Property>
+					<Property Name="Version">5.3.2317</Property>
+				</Application>
+				<Application Name="XFS SDM Service Provider">
+					<Property Name="Caption">XFS SDM Service Provider</Property>
+					<Property Name="Name">XFS SDM Service Provider</Property>
+					<Property Name="Description">XFS SDM Service Provider</Property>
+					<Property Name="IdentifyingNumber">{E0DD111B-992F-4BA0-BBBA-CCCA9275FD8D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR Corporation</Property>
+					<Property Name="Version">01.03.01</Property>
+				</Application>
+				<Application Name="SolidSet">
+					<Property Name="Caption">SolidSet</Property>
+					<Property Name="Name">SolidSet</Property>
+					<Property Name="Description">SolidSet</Property>
+					<Property Name="IdentifyingNumber">{E524AE78-5A07-406E-9047-A1A08341DC8D}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">04.02.00</Property>
+				</Application>
+				<Application Name="USB Integrated Motorised Card Reader Writer">
+					<Property Name="Caption">USB Integrated Motorised Card Reader Writer
+					</Property>
+					<Property Name="Name">USB Integrated Motorised Card Reader Writer
+					</Property>
+					<Property Name="Description">USB Integrated Motorised Card Reader Writer
+					</Property>
+					<Property Name="IdentifyingNumber">{EB3F80A9-AD3D-4F90-B193-8A6ED389E413}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">01.01.00</Property>
+				</Application>
+				<Application Name="XFS TTU Service Provider">
+					<Property Name="Caption">XFS TTU Service Provider</Property>
+					<Property Name="Name">XFS TTU Service Provider</Property>
+					<Property Name="Description">XFS TTU Service Provider</Property>
+					<Property Name="IdentifyingNumber">{EE8F54CD-9F76-4F53-AD31-1F971723B677}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR </Property>
+					<Property Name="Version">03.07.02</Property>
+				</Application>
+				<Application Name="Sdc Primary">
+					<Property Name="Caption">Sdc Primary</Property>
+					<Property Name="Name">Sdc Primary</Property>
+					<Property Name="Description">Sdc Primary</Property>
+					<Property Name="IdentifyingNumber">{F15DF717-B828-4744-93DB-625B1A6561C4}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.01.01</Property>
+				</Application>
+				<Application Name="EMV\CAM2 Exits for Advance NDC">
+					<Property Name="Caption">EMV\CAM2 Exits for Advance NDC</Property>
+					<Property Name="Name">EMV\CAM2 Exits for Advance NDC</Property>
+					<Property Name="Description">EMV\CAM2 Exits for Advance NDC</Property>
+					<Property Name="IdentifyingNumber">{F205987C-5F59-4FB3-B736-28BE09DF2FA3}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR FSG Ltd.</Property>
+					<Property Name="Version">02.02.01</Property>
+				</Application>
+				<Application Name="Exception Handling">
+					<Property Name="Caption">Exception Handling</Property>
+					<Property Name="Name">Exception Handling</Property>
+					<Property Name="Description">Exception Handling</Property>
+					<Property Name="IdentifyingNumber">{F23108AB-C6CD-11D5-9861-00D0B759864F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">04.07.00</Property>
+				</Application>
+				<Application Name="ANDCSP">
+					<Property Name="Caption">ANDCSP</Property>
+					<Property Name="Name">ANDCSP</Property>
+					<Property Name="Description">ANDCSP</Property>
+					<Property Name="IdentifyingNumber">{F480EE93-3E5B-4733-8BC0-E069DFE7A3DB}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.04.02</Property>
+				</Application>
+				<Application Name="RS232DashCardReader">
+					<Property Name="Caption">RS232DashCardReader</Property>
+					<Property Name="Name">RS232DashCardReader</Property>
+					<Property Name="Description">RS232DashCardReader</Property>
+					<Property Name="IdentifyingNumber">{F5655248-8294-414F-A869-CBB3EB841BEF}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.01.01</Property>
+				</Application>
+				<Application Name="Gasper FTAgent">
+					<Property Name="Caption">Gasper FTAgent</Property>
+					<Property Name="Name">Gasper FTAgent</Property>
+					<Property Name="Description">Gasper FTAgent</Property>
+					<Property Name="IdentifyingNumber">{F8346948-43D9-45AB-83D1-5DCC9B368F40}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">Gasper Division of NCR</Property>
+					<Property Name="Version">3.0.9</Property>
+				</Application>
+				<Application Name="USBSmartFingerPrintReader">
+					<Property Name="Caption">USBSmartFingerPrintReader</Property>
+					<Property Name="Name">USBSmartFingerPrintReader</Property>
+					<Property Name="Description">USBSmartFingerPrintReader</Property>
+					<Property Name="IdentifyingNumber">{F865698B-EE97-456C-B193-E6E08F05A94F}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR APTRA</Property>
+					<Property Name="Version">01.00.01</Property>
+				</Application>
+				<Application Name="Realtek AC'97 Audio">
+					<Property Name="Caption">Realtek AC'97 Audio</Property>
+					<Property Name="Name">Realtek AC'97 Audio</Property>
+					<Property Name="Description">Realtek AC'97 Audio</Property>
+					<Property Name="IdentifyingNumber"/>
+					<Property Name="InstallDate"/>
+					<Property Name="InstallDate2"/>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor"/>
+					<Property Name="Version"/>
+				</Application>
+				<Application Name="SdcEDep">
+					<Property Name="Caption">SdcEDep</Property>
+					<Property Name="Name">SdcEDep</Property>
+					<Property Name="Description">SdcEDep</Property>
+					<Property Name="IdentifyingNumber">{FBB20F13-E8B6-4AA6-A234-378CB5AA83F8}
+					</Property>
+					<Property Name="InstallDate">20120529</Property>
+					<Property Name="InstallDate2">20120529000000.000000-000</Property>
+					<Property Name="InstallState">5</Property>
+					<Property Name="Vendor">NCR</Property>
+					<Property Name="Version">03.00.09</Property>
+				</Application>
+			</InstalledSoftware>
+			<WindowsXPHotFixes>
+				<HotFix Name="KB2286198">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2286198</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2393802">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2393802</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2412687">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2412687</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2423089">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2423089</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2443105">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2443105</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2476490">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2476490</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2479943">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2479943</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2481109">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2481109</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2483185">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2483185</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2483614">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2483614</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2485663">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2485663</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2492386">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2492386</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2503658">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2503658</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2503665">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2503665</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2506212">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2506212</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2506223">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2506223</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2507618">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2507618</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2507938">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2507938</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2508429">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2508429</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2509553">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2509553</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2524375">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2524375</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2535512">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2535512</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2536276-v2">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2536276-v2</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2541763">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2541763</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2544521">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2544521</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2544893-v2">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2544893-v2</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2555917">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2555917</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2559049">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2559049</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2562937">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2562937</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2566454">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2566454</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2567053">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2567053</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2567680">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2567680</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2570222">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2570222</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2570947">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2570947</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2586448">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2586448</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2592799">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2592799</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2607712">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2607712</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB2616676-v2">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB2616676-v2</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB943729">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB943729</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB950974">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB950974</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB951748">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB951748</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB952954">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB952954</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB954550-v5">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB954550-v5</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB958644">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB958644</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB958690">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB958690</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB958869">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB958869</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB960803">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB960803</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB968537">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB968537</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB969947">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB969947</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB970238">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB970238</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB971468">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB971468</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB971657">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB971657</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB971961-IE8">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB971961-IE8</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB973507">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB973507</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB973815">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB973815</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB973869">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB973869</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB975025">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB975025</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB975562">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB975562</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB977165-v2">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB977165-v2</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB978251">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB978251</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB978542">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB978542</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB979482">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB979482</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB979683">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB979683</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB980195">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB980195</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB980232">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB980232</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB981852">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB981852</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB982214">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB982214</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="KB982316">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">File 1</Property>
+					<Property Name="ServicePackInEffect">KB982316</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Q147222">
+					<Property Name="Description"/>
+					<Property Name="HotFixID">Q147222</Property>
+					<Property Name="ServicePackInEffect"/>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Microsoft .NET Framework 1.1 Hotfix (KB928366)">
+					<Property Name="Description">Microsoft .NET Framework 1.1 Hotfix
+						(KB928366)</Property>
+					<Property Name="HotFixID">M928366</Property>
+					<Property Name="ServicePackInEffect">1.1</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Microsoft .NET Framework 1.1 Service Pack 1 (KB867460)">
+					<Property Name="Description">Microsoft .NET Framework 1.1 Service Pack 1
+						(KB867460)</Property>
+					<Property Name="HotFixID">S867460</Property>
+					<Property Name="ServicePackInEffect">1.1</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Security Update for Windows Media Player (KB972187)">
+					<Property Name="Description">Security Update for Windows Media Player
+						(KB972187)</Property>
+					<Property Name="HotFixID">KB972187_WM9</Property>
+					<Property Name="ServicePackInEffect"/>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows Media Player (KB978695)">
+					<Property Name="Description">Security Update for Windows Media Player
+						(KB978695)</Property>
+					<Property Name="HotFixID">KB978695_WM9</Property>
+					<Property Name="ServicePackInEffect"/>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows Internet Explorer 8 (KB971961)">
+					<Property Name="Description">Security Update for Windows Internet
+						Explorer 8 (KB971961)</Property>
+					<Property Name="HotFixID">KB971961-IE8</Property>
+					<Property Name="ServicePackInEffect">SP0</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2286198)">
+					<Property Name="Description">Security Update for Windows XP (KB2286198)
+					</Property>
+					<Property Name="HotFixID">KB2286198</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2393802)">
+					<Property Name="Description">Security Update for Windows XP (KB2393802)
+					</Property>
+					<Property Name="HotFixID">KB2393802</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2412687)">
+					<Property Name="Description">Security Update for Windows XP (KB2412687)
+					</Property>
+					<Property Name="HotFixID">KB2412687</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2423089)">
+					<Property Name="Description">Security Update for Windows XP (KB2423089)
+					</Property>
+					<Property Name="HotFixID">KB2423089</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2443105)">
+					<Property Name="Description">Security Update for Windows XP (KB2443105)
+					</Property>
+					<Property Name="HotFixID">KB2443105</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2476490)">
+					<Property Name="Description">Security Update for Windows XP (KB2476490)
+					</Property>
+					<Property Name="HotFixID">KB2476490</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2479943)">
+					<Property Name="Description">Security Update for Windows XP (KB2479943)
+					</Property>
+					<Property Name="HotFixID">KB2479943</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2481109)">
+					<Property Name="Description">Security Update for Windows XP (KB2481109)
+					</Property>
+					<Property Name="HotFixID">KB2481109</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2483185)">
+					<Property Name="Description">Security Update for Windows XP (KB2483185)
+					</Property>
+					<Property Name="HotFixID">KB2483185</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2483614)">
+					<Property Name="Description">Security Update for Windows XP (KB2483614)
+					</Property>
+					<Property Name="HotFixID">KB2483614</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2485663)">
+					<Property Name="Description">Security Update for Windows XP (KB2485663)
+					</Property>
+					<Property Name="HotFixID">KB2485663</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Update for Windows XP (KB2492386)">
+					<Property Name="Description">Update for Windows XP (KB2492386)
+					</Property>
+					<Property Name="HotFixID">KB2492386</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2503658)">
+					<Property Name="Description">Security Update for Windows XP (KB2503658)
+					</Property>
+					<Property Name="HotFixID">KB2503658</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2503665)">
+					<Property Name="Description">Security Update for Windows XP (KB2503665)
+					</Property>
+					<Property Name="HotFixID">KB2503665</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2506212)">
+					<Property Name="Description">Security Update for Windows XP (KB2506212)
+					</Property>
+					<Property Name="HotFixID">KB2506212</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2506223)">
+					<Property Name="Description">Security Update for Windows XP (KB2506223)
+					</Property>
+					<Property Name="HotFixID">KB2506223</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2507618)">
+					<Property Name="Description">Security Update for Windows XP (KB2507618)
+					</Property>
+					<Property Name="HotFixID">KB2507618</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2507938)">
+					<Property Name="Description">Security Update for Windows XP (KB2507938)
+					</Property>
+					<Property Name="HotFixID">KB2507938</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2508429)">
+					<Property Name="Description">Security Update for Windows XP (KB2508429)
+					</Property>
+					<Property Name="HotFixID">KB2508429</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2509553)">
+					<Property Name="Description">Security Update for Windows XP (KB2509553)
+					</Property>
+					<Property Name="HotFixID">KB2509553</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2524375)">
+					<Property Name="Description">Security Update for Windows XP (KB2524375)
+					</Property>
+					<Property Name="HotFixID">KB2524375</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2535512)">
+					<Property Name="Description">Security Update for Windows XP (KB2535512)
+					</Property>
+					<Property Name="HotFixID">KB2535512</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2536276-v2)">
+					<Property Name="Description">Security Update for Windows XP
+						(KB2536276-v2)</Property>
+					<Property Name="HotFixID">KB2536276-v2</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Update for Windows XP (KB2541763)">
+					<Property Name="Description">Update for Windows XP (KB2541763)
+					</Property>
+					<Property Name="HotFixID">KB2541763</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2544521)">
+					<Property Name="Description">Security Update for Windows XP (KB2544521)
+					</Property>
+					<Property Name="HotFixID">KB2544521</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2544893-v2)">
+					<Property Name="Description">Security Update for Windows XP
+						(KB2544893-v2)</Property>
+					<Property Name="HotFixID">KB2544893-v2</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2555917)">
+					<Property Name="Description">Security Update for Windows XP (KB2555917)
+					</Property>
+					<Property Name="HotFixID">KB2555917</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2559049)">
+					<Property Name="Description">Security Update for Windows XP (KB2559049)
+					</Property>
+					<Property Name="HotFixID">KB2559049</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2562937)">
+					<Property Name="Description">Security Update for Windows XP (KB2562937)
+					</Property>
+					<Property Name="HotFixID">KB2562937</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2566454)">
+					<Property Name="Description">Security Update for Windows XP (KB2566454)
+					</Property>
+					<Property Name="HotFixID">KB2566454</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2567053)">
+					<Property Name="Description">Security Update for Windows XP (KB2567053)
+					</Property>
+					<Property Name="HotFixID">KB2567053</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2567680)">
+					<Property Name="Description">Security Update for Windows XP (KB2567680)
+					</Property>
+					<Property Name="HotFixID">KB2567680</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2570222)">
+					<Property Name="Description">Security Update for Windows XP (KB2570222)
+					</Property>
+					<Property Name="HotFixID">KB2570222</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2570947)">
+					<Property Name="Description">Security Update for Windows XP (KB2570947)
+					</Property>
+					<Property Name="HotFixID">KB2570947</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2586448)">
+					<Property Name="Description">Security Update for Windows XP (KB2586448)
+					</Property>
+					<Property Name="HotFixID">KB2586448</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB2592799)">
+					<Property Name="Description">Security Update for Windows XP (KB2592799)
+					</Property>
+					<Property Name="HotFixID">KB2592799</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Update for Windows XP (KB2607712)">
+					<Property Name="Description">Update for Windows XP (KB2607712)
+					</Property>
+					<Property Name="HotFixID">KB2607712</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Update for Windows XP (KB2616676-v2)">
+					<Property Name="Description">Update for Windows XP (KB2616676-v2)
+					</Property>
+					<Property Name="HotFixID">KB2616676-v2</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB950974)">
+					<Property Name="Description">Security Update for Windows XP (KB950974)
+					</Property>
+					<Property Name="HotFixID">KB950974</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB951748)">
+					<Property Name="Description">Security Update for Windows XP (KB951748)
+					</Property>
+					<Property Name="HotFixID">KB951748</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB952954)">
+					<Property Name="Description">Security Update for Windows XP (KB952954)
+					</Property>
+					<Property Name="HotFixID">KB952954</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Hotfix for Windows XP (KB954550-v5)">
+					<Property Name="Description">Hotfix for Windows XP (KB954550-v5)
+					</Property>
+					<Property Name="HotFixID">KB954550-v5</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB958644)">
+					<Property Name="Description">Security Update for Windows XP (KB958644)
+					</Property>
+					<Property Name="HotFixID">KB958644</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB958690)">
+					<Property Name="Description">Security Update for Windows XP (KB958690)
+					</Property>
+					<Property Name="HotFixID">KB958690</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB958869)">
+					<Property Name="Description">Security Update for Windows XP (KB958869)
+					</Property>
+					<Property Name="HotFixID">KB958869</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB960803)">
+					<Property Name="Description">Security Update for Windows XP (KB960803)
+					</Property>
+					<Property Name="HotFixID">KB960803</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB968537)">
+					<Property Name="Description">Security Update for Windows XP (KB968537)
+					</Property>
+					<Property Name="HotFixID">KB968537</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB969947)">
+					<Property Name="Description">Security Update for Windows XP (KB969947)
+					</Property>
+					<Property Name="HotFixID">KB969947</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB970238)">
+					<Property Name="Description">Security Update for Windows XP (KB970238)
+					</Property>
+					<Property Name="HotFixID">KB970238</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB971468)">
+					<Property Name="Description">Security Update for Windows XP (KB971468)
+					</Property>
+					<Property Name="HotFixID">KB971468</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB971657)">
+					<Property Name="Description">Security Update for Windows XP (KB971657)
+					</Property>
+					<Property Name="HotFixID">KB971657</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB973507)">
+					<Property Name="Description">Security Update for Windows XP (KB973507)
+					</Property>
+					<Property Name="HotFixID">KB973507</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Update for Windows XP (KB973815)">
+					<Property Name="Description">Update for Windows XP (KB973815)</Property>
+					<Property Name="HotFixID">KB973815</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB973869)">
+					<Property Name="Description">Security Update for Windows XP (KB973869)
+					</Property>
+					<Property Name="HotFixID">KB973869</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB975025)">
+					<Property Name="Description">Security Update for Windows XP (KB975025)
+					</Property>
+					<Property Name="HotFixID">KB975025</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB975562)">
+					<Property Name="Description">Security Update for Windows XP (KB975562)
+					</Property>
+					<Property Name="HotFixID">KB975562</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB977165-v2)">
+					<Property Name="Description">Security Update for Windows XP
+						(KB977165-v2)</Property>
+					<Property Name="HotFixID">KB977165-v2</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB978251)">
+					<Property Name="Description">Security Update for Windows XP (KB978251)
+					</Property>
+					<Property Name="HotFixID">KB978251</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB978542)">
+					<Property Name="Description">Security Update for Windows XP (KB978542)
+					</Property>
+					<Property Name="HotFixID">KB978542</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB979482)">
+					<Property Name="Description">Security Update for Windows XP (KB979482)
+					</Property>
+					<Property Name="HotFixID">KB979482</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB979683)">
+					<Property Name="Description">Security Update for Windows XP (KB979683)
+					</Property>
+					<Property Name="HotFixID">KB979683</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB980195)">
+					<Property Name="Description">Security Update for Windows XP (KB980195)
+					</Property>
+					<Property Name="HotFixID">KB980195</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB980232)">
+					<Property Name="Description">Security Update for Windows XP (KB980232)
+					</Property>
+					<Property Name="HotFixID">KB980232</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB981852)">
+					<Property Name="Description">Security Update for Windows XP (KB981852)
+					</Property>
+					<Property Name="HotFixID">KB981852</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB982214)">
+					<Property Name="Description">Security Update for Windows XP (KB982214)
+					</Property>
+					<Property Name="HotFixID">KB982214</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn"/>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments"/>
+				</HotFix>
+				<HotFix Name="Security Update for Windows XP (KB982316)">
+					<Property Name="Description">Security Update for Windows XP (KB982316)
+					</Property>
+					<Property Name="HotFixID">KB982316</Property>
+					<Property Name="ServicePackInEffect">SP4</Property>
+					<Property Name="InstalledOn">5/29/2012</Property>
+					<Property Name="CSName">ATM7333</Property>
+					<Property Name="FixComments">Update</Property>
+				</HotFix>
+			</WindowsXPHotFixes>
+			<OperatingSystem>
+				<OSName Name="Microsoft Windows XP Professional">
+					<Property Name="Caption">Microsoft Windows XP Professional
+					</Property>
+					<Property Name="Name">Microsoft Windows XP
+						Professional|C:\WINDOWS|\Device\Harddisk0\Partition1</Property>
+					<Property Name="Version">5.1.2600</Property>
+					<Property Name="ServicePackMajorVersion">3</Property>
+					<Property Name="ServicePackMinorVersion">0</Property>
+				</OSName>
+			</OperatingSystem>
+		</Added>
+		<Removed/>
+		<Modified/>
+		<Unmodified/>
+	</SoftwareInventory>
+	<TerminalInventory xmlns="http://www.ncr.com/2009/GSE/TerminalInventory">
+		<Added>
+			<TerminalData>
+				<Terminal Name="41411660">
+					<Property Name="TerminalType">SST</Property>
+					<Property Name="TerminalVendor">NCR</Property>
+					<Property Name="FrontReplenish">True</Property>
+					<Property Name="GeographicAddress"/>
+					<Property Name="ManufacturingSite">83</Property>
+					<Property Name="Model">2000</Property>
+					<Property Name="ProductClass">6622</Property>
+					<Property Name="ProductClassDescription"/>
+					<Property Name="SerialNumber">41411660</Property>
+					<Property Name="TracerNumber">2994</Property>
+				</Terminal>
+			</TerminalData>
+		</Added>
+		<Removed/>
+		<Modified/>
+		<Unmodified/>
+	</TerminalInventory>
+	<XFSInventory xmlns="http://www.ncr.com/2009/GSE/XFSInventory">
+		<Added>
+			<CDM CEN-Version="3.02" LogicalName="CurrencyDispenser1" ServiceProvider="CDM" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>CDM</Value>
+					</Property>
+					<Property Name="Type">
+						<Value>SelfServiceBill</Value>
+					</Property>
+					<Property Name="MaxDispenseItems">
+						<Value>40</Value>
+					</Property>
+					<Property Name="Compound">
+						<Value>False</Value>
+					</Property>
+					<Property Name="HasShutter">
+						<Value>False</Value>
+					</Property>
+					<Property Name="ShutterControl">
+						<Value>True</Value>
+					</Property>
+					<Property Name="RetractAreas">
+						<Value>Stacker</Value>
+						<Value>Reject</Value>
+					</Property>
+					<Property Name="RetractTransportActions">
+						<Value>NotSupported</Value>
+					</Property>
+					<Property Name="RetractStackerActions">
+						<Value>Present</Value>
+						<Value>Reject</Value>
+					</Property>
+					<Property Name="CanOpenSafeDoor">
+						<Value>False</Value>
+					</Property>
+					<Property Name="HasCashBox">
+						<Value>False</Value>
+					</Property>
+					<Property Name="IntermediateStacker">
+						<Value>True</Value>
+					</Property>
+					<Property Name="HasTakenSensor">
+						<Value>True</Value>
+					</Property>
+					<Property Name="SupportedPositions">
+						<Value>Front</Value>
+					</Property>
+					<Property Name="MoveItems">
+						<Value>NotSupported</Value>
+					</Property>
+					<Property Name="ExchangeTypes">
+						<Value>ByHand</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>NUMDEVICES=1</Value>
+						<Value>DEVICE1=UID=155,DEVNAME=CASH-01-UsbDispenser,DEVVAR=1
+						</Value>
+						<Value>FirmwareVersion=0033</Value>
+					</Property>
+				</Capabilities>
+				<CashUnits>
+					<LogicalCashUnit Name="">
+						<Property Name="Type">
+							<Value>BillCassette</Value>
+						</Property>
+						<Property Name="UnitID">
+							<Value>1</Value>
+						</Property>
+						<Property Name="CurrencyID">
+							<Value>AED</Value>
+						</Property>
+						<Property Name="Values">
+							<Value>500</Value>
+						</Property>
+						<Property Name="Minimum">
+							<Value>0</Value>
+						</Property>
+						<Property Name="Maximum">
+							<Value>0</Value>
+						</Property>
+						<PhysicalCashUnit Name="Unit 1 (top)">
+							<Property Name="UnitID">
+								<Value>1</Value>
+							</Property>
+							<Property Name="Maximum">
+								<Value>0</Value>
+							</Property>
+							<Property Name="HardwareSensor">
+								<Value>True</Value>
+							</Property>
+						</PhysicalCashUnit>
+					</LogicalCashUnit>
+					<LogicalCashUnit Name="">
+						<Property Name="Type">
+							<Value>BillCassette</Value>
+						</Property>
+						<Property Name="UnitID">
+							<Value>2</Value>
+						</Property>
+						<Property Name="CurrencyID">
+							<Value>AED</Value>
+						</Property>
+						<Property Name="Values">
+							<Value>100</Value>
+						</Property>
+						<Property Name="Minimum">
+							<Value>0</Value>
+						</Property>
+						<Property Name="Maximum">
+							<Value>0</Value>
+						</Property>
+						<PhysicalCashUnit Name="Unit 2 (next to top)">
+							<Property Name="UnitID">
+								<Value>2</Value>
+							</Property>
+							<Property Name="Maximum">
+								<Value>0</Value>
+							</Property>
+							<Property Name="HardwareSensor">
+								<Value>True</Value>
+							</Property>
+						</PhysicalCashUnit>
+					</LogicalCashUnit>
+					<LogicalCashUnit Name="">
+						<Property Name="Type">
+							<Value>BillCassette</Value>
+						</Property>
+						<Property Name="UnitID">
+							<Value>3</Value>
+						</Property>
+						<Property Name="CurrencyID">
+							<Value>AED</Value>
+						</Property>
+						<Property Name="Values">
+							<Value>1000</Value>
+						</Property>
+						<Property Name="Minimum">
+							<Value>0</Value>
+						</Property>
+						<Property Name="Maximum">
+							<Value>0</Value>
+						</Property>
+						<PhysicalCashUnit>
+							<Property Name="UnitID">
+								<Value/>
+							</Property>
+							<Property Name="Maximum">
+								<Value>0</Value>
+							</Property>
+							<Property Name="HardwareSensor">
+								<Value>False</Value>
+							</Property>
+						</PhysicalCashUnit>
+					</LogicalCashUnit>
+					<LogicalCashUnit Name="">
+						<Property Name="Type">
+							<Value>BillCassette</Value>
+						</Property>
+						<Property Name="UnitID">
+							<Value>4</Value>
+						</Property>
+						<Property Name="CurrencyID">
+							<Value>AED</Value>
+						</Property>
+						<Property Name="Values">
+							<Value>200</Value>
+						</Property>
+						<Property Name="Minimum">
+							<Value>0</Value>
+						</Property>
+						<Property Name="Maximum">
+							<Value>0</Value>
+						</Property>
+						<PhysicalCashUnit>
+							<Property Name="UnitID">
+								<Value/>
+							</Property>
+							<Property Name="Maximum">
+								<Value>0</Value>
+							</Property>
+							<Property Name="HardwareSensor">
+								<Value>False</Value>
+							</Property>
+						</PhysicalCashUnit>
+					</LogicalCashUnit>
+					<LogicalCashUnit Name="">
+						<Property Name="Type">
+							<Value>RejectCassette</Value>
+						</Property>
+						<Property Name="UnitID">
+							<Value>0</Value>
+						</Property>
+						<Property Name="CurrencyID">
+							<Value/>
+						</Property>
+						<Property Name="Values">
+							<Value>0</Value>
+						</Property>
+						<Property Name="Minimum">
+							<Value>0</Value>
+						</Property>
+						<Property Name="Maximum">
+							<Value>0</Value>
+						</Property>
+						<PhysicalCashUnit Name="Reject bin">
+							<Property Name="UnitID">
+								<Value>0</Value>
+							</Property>
+							<Property Name="Maximum">
+								<Value>0</Value>
+							</Property>
+							<Property Name="HardwareSensor">
+								<Value>True</Value>
+							</Property>
+						</PhysicalCashUnit>
+					</LogicalCashUnit>
+				</CashUnits>
+			</CDM>
+			<IDC CEN-Version="3.02" LogicalName="IDCardUnit1" ServiceProvider="IDC" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>IDC</Value>
+					</Property>
+					<Property Name="Type">
+						<Value>Motor</Value>
+					</Property>
+					<Property Name="Compound">
+						<Value>False</Value>
+					</Property>
+					<Property Name="ReadTracks">
+						<Value>Track1</Value>
+						<Value>Track2</Value>
+						<Value>Track3</Value>
+					</Property>
+					<Property Name="WriteTracks">
+						<Value>Track3</Value>
+					</Property>
+					<Property Name="ChipProtocol">
+						<Value>T0</Value>
+						<Value>T1</Value>
+					</Property>
+					<Property Name="Cards">
+						<Value>10</Value>
+					</Property>
+					<Property Name="SecurityType">
+						<Value>NotSupported</Value>
+					</Property>
+					<Property Name="PowerOn">
+						<Value>NoAction</Value>
+					</Property>
+					<Property Name="PowerOff">
+						<Value>EjectThenRetain</Value>
+					</Property>
+					<Property Name="Flux">
+						<Value>False</Value>
+					</Property>
+					<Property Name="ReadWriteAfterEject">
+						<Value>True</Value>
+					</Property>
+					<Property Name="WriteMode">
+						<Value>Loco</Value>
+					</Property>
+					<Property Name="ChipPower">
+						<Value>Cold</Value>
+						<Value>Warm</Value>
+						<Value>Off</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>NUMDEVICES=1</Value>
+						<Value>DEVICE1=UID=137,DEVNAME=MCRW-01-USBMotorised,DEVVAR=83
+						</Value>
+						<Value>FirmwareVersion=03.40</Value>
+						<Value>SCFirmwareVersion=02493-01E</Value>
+						<Value>EMV=1</Value>
+					</Property>
+				</Capabilities>
+			</IDC>
+			<PIN CEN-Version="3.02" LogicalName="Pinpad1" ServiceProvider="PIN" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>PIN</Value>
+					</Property>
+					<Property Name="Type">
+						<Value>EPP</Value>
+						<Value>EDM</Value>
+						<Value>HSM</Value>
+					</Property>
+					<Property Name="Compound">
+						<Value>False</Value>
+					</Property>
+					<Property Name="KeyNum">
+						<Value>512</Value>
+					</Property>
+					<Property Name="Algorithms">
+						<Value>DESECB</Value>
+						<Value>DESCBC</Value>
+						<Value>DESMAC</Value>
+						<Value>TripleDESECB</Value>
+						<Value>TripleDESCBC</Value>
+						<Value>TripleDESMAC</Value>
+					</Property>
+					<Property Name="PinFormats">
+						<Value>F3624</Value>
+						<Value>ANSI</Value>
+						<Value>ISO0</Value>
+						<Value>ISO1</Value>
+						<Value>ECI2</Value>
+						<Value>ECI3</Value>
+						<Value>VISA</Value>
+						<Value>Diebold</Value>
+						<Value>VISA3</Value>
+						<Value>ISO3</Value>
+					</Property>
+					<Property Name="DerivationAlgorithms">
+						<Value>None</Value>
+					</Property>
+					<Property Name="PresentationAlgorithms">
+						<Value>None</Value>
+					</Property>
+					<Property Name="Display">
+						<Value>None</Value>
+					</Property>
+					<Property Name="IDConnect">
+						<Value>False</Value>
+					</Property>
+					<Property Name="IDKey">
+						<Value>KeyImport</Value>
+					</Property>
+					<Property Name="ValidationAlgorithms">
+						<Value>DES</Value>
+						<Value>VISA</Value>
+					</Property>
+					<Property Name="KeyCheckModes">
+						<Value>Self</Value>
+						<Value>Zero</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>NUMDEVICES=1</Value>
+						<Value>DEVICE1=UID=152,DEVNAME=KEYB-01-USBEPP2,DEVVAR=163</Value>
+						<Value>Vendor=NCR</Value>
+						<Value>Encryptor=EPP-USB-2</Value>
+						<Value>FirmwareVersion=INTL_20</Value>
+						<Value>AUTOBEEP=1</Value>
+						<Value>REMOTE_KEY_SCHEME=0x00000001</Value>
+						<Value>RSA_SIGN_ALGORITHM=0x00000001</Value>
+						<Value>RSA_CRYPT_ALGORITHM=0x00000001</Value>
+						<Value>SIGNATURE_CAPABILITIES=0x00000004</Value>
+						<Value>PIN_IMPORT_KEY_PARTS=1</Value>
+						<Value>FirmwareRevision=AppVer:INTL_20,LoaderVer:UL102006</Value>
+						<Value>PartNumber=009-0024379</Value>
+						<Value>ModelNumber=5815UEPP</Value>
+					</Property>
+				</Capabilities>
+			</PIN>
+			<PTR CEN-Version="3.02" LogicalName="USBJournalPrinter1" ServiceProvider="UJPTR" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>PTR</Value>
+					</Property>
+					<Property Name="Type">
+						<Value>Journal</Value>
+					</Property>
+					<Property Name="Compound">
+						<Value>False</Value>
+					</Property>
+					<Property Name="Resolution">
+						<Value>Low</Value>
+					</Property>
+					<Property Name="ReadForm">
+						<Value>None</Value>
+					</Property>
+					<Property Name="WriteForm">
+						<Value>Text</Value>
+						<Value>Graphics</Value>
+					</Property>
+					<Property Name="Extents">
+						<Value>None</Value>
+					</Property>
+					<Property Name="Control">
+						<Value>Flush</Value>
+					</Property>
+					<Property Name="MaxMediaOnStacker">
+						<Value>0</Value>
+					</Property>
+					<Property Name="AcceptMedia">
+						<Value>False</Value>
+					</Property>
+					<Property Name="MultiPage">
+						<Value>False</Value>
+					</Property>
+					<Property Name="PaperSources">
+						<Value>Upper</Value>
+					</Property>
+					<Property Name="MediaTaken">
+						<Value>False</Value>
+					</Property>
+					<Property Name="RetractBins">
+						<Value>0</Value>
+					</Property>
+					<Property Name="MaxRetract"/>
+					<Property Name="ImageType">
+						<Value>None</Value>
+					</Property>
+					<Property Name="FrontImageColorFormat">
+						<Value>None</Value>
+					</Property>
+					<Property Name="BackImageColorFormat">
+						<Value>None</Value>
+					</Property>
+					<Property Name="CodeLineFormat">
+						<Value>None</Value>
+					</Property>
+					<Property Name="ImageSource">
+						<Value>None</Value>
+					</Property>
+					<Property Name="CharSupport">
+						<Value>Ascii</Value>
+						<Value>Unicode</Value>
+					</Property>
+					<Property Name="DispensePaper">
+						<Value>False</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>NUMDEVICES=1</Value>
+						<Value>DEVICE1=UID=139,DEVNAME=JPNT-01-UsbThermal,DEVVAR=0</Value>
+						<Value>FirmwareVersion=02.40.00.00,06.30.00.00,00.90.00.00</Value>
+					</Property>
+				</Capabilities>
+			</PTR>
+			<PTR CEN-Version="3.02" LogicalName="USBReceiptPrinter1" ServiceProvider="URPTR" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>PTR</Value>
+					</Property>
+					<Property Name="Type">
+						<Value>Receipt</Value>
+					</Property>
+					<Property Name="Compound">
+						<Value>False</Value>
+					</Property>
+					<Property Name="Resolution">
+						<Value>Low</Value>
+					</Property>
+					<Property Name="ReadForm">
+						<Value>None</Value>
+					</Property>
+					<Property Name="WriteForm">
+						<Value>Text</Value>
+						<Value>Graphics</Value>
+						<Value>Barcode</Value>
+					</Property>
+					<Property Name="Extents">
+						<Value>None</Value>
+					</Property>
+					<Property Name="Control">
+						<Value>Eject</Value>
+						<Value>Cut</Value>
+						<Value>Flush</Value>
+					</Property>
+					<Property Name="MaxMediaOnStacker">
+						<Value>0</Value>
+					</Property>
+					<Property Name="AcceptMedia">
+						<Value>False</Value>
+					</Property>
+					<Property Name="MultiPage">
+						<Value>False</Value>
+					</Property>
+					<Property Name="PaperSources">
+						<Value>Upper</Value>
+					</Property>
+					<Property Name="MediaTaken">
+						<Value>True</Value>
+					</Property>
+					<Property Name="RetractBins">
+						<Value>0</Value>
+					</Property>
+					<Property Name="MaxRetract"/>
+					<Property Name="ImageType">
+						<Value>None</Value>
+					</Property>
+					<Property Name="FrontImageColorFormat">
+						<Value>None</Value>
+					</Property>
+					<Property Name="BackImageColorFormat">
+						<Value>None</Value>
+					</Property>
+					<Property Name="CodeLineFormat">
+						<Value>None</Value>
+					</Property>
+					<Property Name="ImageSource">
+						<Value>None</Value>
+					</Property>
+					<Property Name="CharSupport">
+						<Value>Ascii</Value>
+						<Value>Unicode</Value>
+					</Property>
+					<Property Name="DispensePaper">
+						<Value>False</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>NUMDEVICES=1</Value>
+						<Value>DEVICE1=UID=138,DEVNAME=RPNT-01-UsbThermal,DEVVAR=0</Value>
+						<Value>FirmwareVersion=06.20.00.00,09.50.00.00,00.90.00.00</Value>
+						<Value>TWO_SIDED_HARDWARE=FALSE</Value>
+					</Property>
+				</Capabilities>
+			</PTR>
+			<SIU CEN-Version="3.02" LogicalName="SIU" ServiceProvider="SIU" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>SIU</Value>
+					</Property>
+					<Property Name="Type">
+						<Value>Sensors</Value>
+						<Value>Indicators</Value>
+						<Value>GuideLights</Value>
+					</Property>
+					<Property Name="Sensor.OperatorSwitch">
+						<Value>Run</Value>
+						<Value>Supervisor</Value>
+					</Property>
+					<Property Name="Sensor.Tamper">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.InternalTamper">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.Seismic">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.Heat">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.Proximity">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.AmbientLight">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.EnhancedAudio">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Sensor.9">
+						<Value>1</Value>
+					</Property>
+					<Property Name="Door.Cabinet">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Door.Safe">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Door.VandalShield">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Indicator.OpenClose">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Indicator.FasciaLight">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Indicator.Audio">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Indicator.Heating">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Auxiliary.Volume">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Auxiliary.UPS">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Auxiliary.RemoteStatusMonitor">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Auxiliary.AudibleAlarm">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Auxiliary.EnhancedAudioControl">
+						<Value>NotAvailable</Value>
+					</Property>
+					<Property Name="Guidelight.CardUnit">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.PinPad">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.NoteDispenser">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.CoinDispenser">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.ReceiptPrinter">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.PassbookPrinter">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.EnvelopeDepository">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.ChequeUnit">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.BillAcceptor">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.EnvelopeDispenser">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.DocumentPrinter">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.CoinAcceptor">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.Scanner">
+						<Value>Available</Value>
+					</Property>
+					<Property Name="Guidelight.14">
+						<Value>1</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>NUMDEVICES=5</Value>
+						<Value>DEVICE1=UID=23,DEVNAME=MDSW-01-MODESWITCH,DEVVAR=0</Value>
+						<Value>DEVICE2=UID=48,DEVNAME=MON_-01-PcMonitor,DEVVAR=2</Value>
+						<Value>DEVICE3=UID=129,DEVNAME=MEEI-01-USBMediaEntryExitInd,DEVVAR=1
+						</Value>
+						<Value>DEVICE4=UID=131,DEVNAME=FLT_-01-USBFasciaLight,DEVVAR=1
+						</Value>
+						<Value>DEVICE5=UID=132,DEVNAME=ALT_-01-USBAdvertLight,DEVVAR=1
+						</Value>
+					</Property>
+				</Capabilities>
+			</SIU>
+			<VDM CEN-Version="3.02" LogicalName="VendorDependentMode1" ServiceProvider="VDM" Vendor="NCR Corporation">
+				<Capabilities>
+					<Property Name="Class">
+						<Value>VDM</Value>
+					</Property>
+					<Property Name="Extra">
+						<Value>PowerCycleSupport=TRUE</Value>
+						<Value>PowerDownSupport=TRUE</Value>
+					</Property>
+				</Capabilities>
+			</VDM>
+		</Added>
+		<Removed/>
+		<Modified/>
+		<Unmodified/>
+	</XFSInventory>
+	<UnifiedAgentInventory xmlns="http://www.ncr.com/2009/GSE/UnifiedAgentInventory">
+		<Added>
+			<Component Name="Ionic.Zip">
+				<Property Name="Version">
+					<Value>1.9.1.5</Value>
+				</Property>
+			</Component>
+			<Component Name="Microsoft.Net.BITS">
+				<Property Name="Version">
+					<Value>2.1.4871.32805</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.BITSFileTransferSrv">
+				<Property Name="Version">
+					<Value>1.0.1.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.ClassConfigSchemaCore">
+				<Property Name="Version">
+					<Value>1.2.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.ClassConfigurator">
+				<Property Name="Version">
+					<Value>1.0.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.ClassConfiguratorCore">
+				<Property Name="Version">
+					<Value>1.1.0.18</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.CnsmrParserCore">
+				<Property Name="Version">
+					<Value>1.0.0.22</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.CollectorCore">
+				<Property Name="Version">
+					<Value>1.8.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.CriticalExceptionHandler">
+				<Property Name="Version">
+					<Value>1.2.0.3</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.DatRec">
+				<Property Name="Version">
+					<Value>1.0.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.FileDocumentCollector">
+				<Property Name="Version">
+					<Value>1.0.0.3</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.IDatRec">
+				<Property Name="Version">
+					<Value>1.2.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.IFileTransferSrv">
+				<Property Name="Version">
+					<Value>1.0.0.3</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.IManagementCollector">
+				<Property Name="Version">
+					<Value>2.2.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.IMgmtServerComms">
+				<Property Name="Version">
+					<Value>1.4.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.InventoryCollector">
+				<Property Name="Version">
+					<Value>2.6.0.3</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.ISoftwareUpdateSrv">
+				<Property Name="Version">
+					<Value>1.0.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NUlysses">
+				<Property Name="Version">
+					<Value>1.1.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFS.Device">
+				<Property Name="Version">
+					<Value>1.0.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFS">
+				<Property Name="Version">
+					<Value>1.0.0.8</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFS.Types">
+				<Property Name="Version">
+					<Value>1.0.0.8</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSCore">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceCAM">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceCDM">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceCIM">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceDEP">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceIDC">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceIPM">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDevicePIN">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDevicePTR">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceSIU">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceTTU">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.NXFSDeviceVDM">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.PDCollection">
+				<Property Name="Version">
+					<Value>1.3.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.PSDocumentCollector">
+				<Property Name="Version">
+					<Value>1.4.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.PSDocumentCollector.Private">
+				<Property Name="Version">
+					<Value>1.3.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.PSEventCollector">
+				<Property Name="Version">
+					<Value>1.3.1.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.PSEventCollector.Private">
+				<Property Name="Version">
+					<Value>1.3.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.ScriptManagementCollector">
+				<Property Name="Version">
+					<Value>1.0.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.ScriptManagementCollectorCore">
+				<Property Name="Version">
+					<Value>1.0.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.SoftwareDistributionCollector">
+				<Property Name="Version">
+					<Value>1.3.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.SoftwareUpdateSrv">
+				<Property Name="Version">
+					<Value>1.1.0.3</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UACommon">
+				<Property Name="Version">
+					<Value>1.1.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UADependencyMonitor">
+				<Property Name="Version">
+					<Value>1.0.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UANet">
+				<Property Name="Version">
+					<Value>1.0.1.4</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UASecurity">
+				<Property Name="Version">
+					<Value>1.1.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UATerminalInfo">
+				<Property Name="Version">
+					<Value>1.1.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UnifiedAgentConfigCore">
+				<Property Name="Version">
+					<Value>2.5.0.3</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UnifiedAgentCore">
+				<Property Name="Version">
+					<Value>2.7.0.4</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UnifiedAgentManagementCollector">
+				<Property Name="Version">
+					<Value>1.3.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UnifiedAgentWSCustomAction">
+				<Property Name="Version">
+					<Value>1.0.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.USPSSoftwareInventoryCollector">
+				<Property Name="Version">
+					<Value>2.5.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.WebServiceTransferSrv">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.WebServiceTransferSrvCore">
+				<Property Name="Version">
+					<Value>1.5.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.WMIManagementCollector">
+				<Property Name="Version">
+					<Value>1.4.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.XFSCardReaderWrapper">
+				<Property Name="Version">
+					<Value>1.0.0.2</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.XFSDocumentCollector">
+				<Property Name="Version">
+					<Value>1.0.0.8</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.XFSManagementCollector">
+				<Property Name="Version">
+					<Value>1.8.0.6</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.XMLCompare">
+				<Property Name="Version">
+					<Value>1.0.0.1</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.XmlDiff">
+				<Property Name="Version">
+					<Value>2.7.0.4</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.CollectorProxyWS">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+			<Component Name="NCR.APTRA.UAWSTSSrv">
+				<Property Name="Version">
+					<Value>1.8.0.5</Value>
+				</Property>
+			</Component>
+		</Added>
+		<Removed/>
+		<Modified/>
+		<Unmodified/>
+	</UnifiedAgentInventory>
+	<NCRFinancialDeviceInventory xmlns="http://www.ncr.com/2009/GSE/NCRFinancialDeviceInventory">
+		<Added>
+			<DeviceClass Name="Mode Switch">
+				<Device Name="MDSW-01-MODESWITCH">
+					<Property Name="Category">Mode Switch</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion"/>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>SIU</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Sound">
+				<Device Name="SND_-01-PcSound">
+					<Property Name="Category">Sound</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion"/>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Monitor">
+				<Device Name="MON_-01-PcMonitor">
+					<Property Name="Category">Monitor + RJ11 Connection</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion"/>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>SIU</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Media Entry/Exit Indicators">
+				<Device Name="MEEI-01-USBMediaEntryExitInd">
+					<Property Name="Category">USB Media Entry/Exit Indicators</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion"/>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>SIU</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Fascia Light">
+				<Device Name="FLT_-01-USBFasciaLight">
+					<Property Name="Category">USB Fascia Light</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion"/>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>SIU</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Advert Light">
+				<Device Name="ALT_-01-USBAdvertLight">
+					<Property Name="Category">USB Advert Light</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion"/>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>SIU</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="USB Motorised Card Reader Writer">
+				<Device Name="MCRW-01-USBMotorised">
+					<Property Name="Category">Track 123 USB MCRW + Smart Card + CROPF
+					</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion">1="03.40"</Property>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>IDCardUnit1</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="USB Receipt Printer">
+				<Device Name="RPNT-01-UsbThermal">
+					<Property Name="Category">USB Receipt Printer</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion">1="06.20.00.00",2="09.50.00.00",3="00.90.00.00"
+					</Property>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>USBReceiptPrinter1</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="USB Journal Printer">
+				<Device Name="JPNT-01-UsbThermal">
+					<Property Name="Category">USB Journal Printer</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion">1="02.40.00.00",2="06.30.00.00",3="00.90.00.00"
+					</Property>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>USBJournalPrinter1</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="Miscellaneous Interface">
+				<Device Name="MISC-01-USBMiscInterface">
+					<Property Name="Category">USB Miscellaneous Interface</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion">1="000c"</Property>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName"/>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="USB Encrypting Pin Pad 2">
+				<Device Name="KEYB-01-USBEPP2">
+					<Property Name="Category">USBEPP2 Numeric and FDKs</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion">1="UL102006",2="INTL_20"</Property>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>Pinpad1</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+			<DeviceClass Name="USB Cash Dispenser">
+				<Device Name="CASH-01-UsbDispenser">
+					<Property Name="Category">Currency Dispenser</Property>
+					<Property Name="Version"/>
+					<Property Name="FirmwareVersion">1="0033"</Property>
+					<Property Name="Plug+Play">False</Property>
+					<Property Name="XFSLogicalName">
+						<Value>CurrencyDispenser1</Value>
+					</Property>
+				</Device>
+			</DeviceClass>
+		</Added>
+		<Removed/>
+		<Modified/>
+		<Unmodified/>
+	</NCRFinancialDeviceInventory>
+</AggregateInventory>

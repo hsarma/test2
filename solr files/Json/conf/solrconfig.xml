@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+
+<luceneMatchVersion>LUCENE_43</luceneMatchVersion>
+
+  <requestDispatcher handleSelect="false">
+    <httpCaching never304="true" />
+  </requestDispatcher>
+  <requestHandler name="/update" class="solr.UpdateRequestHandler" />
+  <requestHandler name="/admin" class="solr.admin.AdminHandlers" />
+  <requestHandler name="/analysis/field" class="solr.FieldAnalysisRequestHandler" startup="lazy" />
+
+
+
+ <requestHandler name="/select" class="solr.SearchHandler">
+    <!-- default values for query parameters can be specified, these
+         will be overridden by parameters in the request
+      -->
+     <lst name="defaults">
+       <str name="echoParams">explicit</str>
+       <int name="rows">10</int>
+     </lst>
+
+    </requestHandler>
+
+  <!-- A request handler that returns indented JSON by default -->
+  <requestHandler name="/query" class="solr.SearchHandler">
+     <lst name="defaults">
+       <str name="echoParams">explicit</str>
+       <str name="wt">json</str>
+       <str name="indent">true</str>
+       <str name="df">text</str>
+     </lst>
+  </requestHandler>
+  
+</config>

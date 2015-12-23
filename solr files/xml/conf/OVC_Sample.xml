@@ -1,0 +1,67 @@
+<titles xmlns="http://tempuri.org/XMLSchema.x...">
+
+<title id="689">
+
+<number>689</number>
+
+<titleparentid>689</titleparentid>
+
+<sysgen>20950</sysgen>
+
+<titletype name="ttype">Feature1</titletype>
+
+<titlesource>Theatrical</titlesource>
+
+<mpaarating>Not Rated</mpaarating>
+
+</title>
+
+<title id="1281">
+
+<number>1281</number>
+
+<titleparentid>1281</titleparentid>
+
+<sysgen>3907</sysgen>
+
+<titletype name="ttype">Feature2</titletype>
+
+<titlesource>Theatrical</titlesource>
+
+<mpaarating>R</mpaarating>
+
+</title>
+
+<title id="2081">
+
+<number>2081</number>
+
+<titleparentid>2081</titleparentid>
+
+<sysgen>59688</sysgen>
+
+<titletype name="ttype">Feature3</titletype>
+
+<titlesource>Theatrical</titlesource>
+
+<mpaarating>PG-13</mpaarating>
+
+</title>
+                                                            
+<title id="2184">
+
+<number>2184</number>
+
+<titleparentid>2184</titleparentid>
+
+<sysgen>57384</sysgen>
+
+<titletype name="ttype">Feature4</titletype>
+
+<titlesource>Theatrical</titlesource>
+
+<mpaarating>R</mpaarating>
+
+</title>
+
+</titles>

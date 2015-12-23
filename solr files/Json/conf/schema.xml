@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema version="1.5">
+<fields>
+<field name="ManagedClient" type="string" indexed="true" stored="true"/>
+<field name="Hardware" type="string" indexed="true" stored="true" required="true"/>
+<field name="Added" type="string" indexed="true" stored="true"/>
+<field name="DeviceClass" type="string" indexed="true" stored="true"/>
+<field name="Device" type="string" indexed="true" stored="true"/>
+<field name="Manufacturer" type="string" indexed="true" stored="true"/>
+<field name="Model" type="string" indexed="true" stored="true"/>
+<field name="NumberOfProcessors" type="string" indexed="true" stored="true"/>
+<field name="Caption" type="string" indexed="true" stored="true"/>
+<field name="TotalPhysicalMemory" type="string" indexed="true" stored="true"/>
+<field name="SystemType" type="string" indexed="true" stored="true"/>
+<field name="Description" type="string" indexed="true" stored="true"/>
+<field name="CurrentTimeZone" type="string" indexed="true" stored="true"/>
+<field name="DaylightInEffect" type="string" indexed="true" stored="true"/>
+<field name="Domain" type="string" indexed="true" stored="true"/>
+<field name="Workgroup" type="string" indexed="true" stored="true"/>
+<field name="Status" type="string" indexed="true" stored="true"/>
+<field name="Architecture" type="string" indexed="true" stored="true"/>
+<field name="AddressWidth" type="string" indexed="true" stored="true"/>
+<field name="CurrentClockSpeed" type="string" indexed="true" stored="true"/>
+<field name="ExtClock" type="string" indexed="true" stored="true"/>
+<field name="Stepping" type="string" indexed="true" stored="true"/>
+<field name="Capacity" type="string" indexed="true" stored="true"/>
+<field name="Speed" type="string" indexed="true" stored="true"/>
+<field name="FormFactor" type="string" indexed="true" stored="true"/>
+</fields>
+
+<types>
+<fieldType name="string" class="solr.StrField" />
+</types>
+</schema>
+
+
+
+

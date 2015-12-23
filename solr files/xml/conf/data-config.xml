@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataConfig>
+ 	<dataSource name="fds" encoding="UTF-8"  type="FileDataSource" />
+    <document>
+        <entity name="f" processor="FileListEntityProcessor" baseDir="C:\Ananth\solr-5.0.0\INSTALL_DIR\solr-5.0.0\server\solr\Invn\backup" fileName=".*xml" newerThan="${dataimporter.last_index_time}" recursive="true" rootEntity="false">
+            <entity name="x" processor="XPathEntityProcessor" forEach="/AggregateInventory |/AggregateInventory/HardwareInventory/Added/DeviceClass | /AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application | /AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix | /AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName" url="${f.fileAbsolutePath}" dataSource="fds">
+					<field column="ManagedClient" xpath="/AggregateInventory/ManagedClient/@Name"/>
+					<field column="Hardware" xpath="/AggregateInventory/HardwareInventory/[@Name='Hardware']"/> 
+						
+                	<field column="DeviceClass" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/@Name"/>
+					<field column="Device" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/@Name"/>
+					<field column="Manufacturer" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Manufacturer']"/>
+					<field column="Model" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Model']"/>
+					<field column="NumberOfProcessors" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='NumberOfProcessors']"/>
+					<field column="Caption" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Caption']"/>
+					<field column="TotalPhysicalMemory" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='TotalPhysicalMemory']"/>
+					<field column="SystemType" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='SystemType']"/>
+					<field column="Description" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Description']"/>
+					<field column="CurrentTimeZone" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='CurrentTimeZone']"/>
+					<field column="DaylightInEffect" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='DaylightInEffect']"/>
+					<field column="Domain" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Domain']"/>
+					<field column="Workgroup" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Workgroup']"/>
+					<field column="Status" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Status']"/>
+					<field column="Architecture" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Architecture']"/>
+					<field column="AddressWidth" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='AddressWidth']"/>
+					<field column="CurrentClockSpeed" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='CurrentClockSpeed']"/>
+					<field column="ExtClock" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='ExtClock']"/>
+					<field column="Stepping" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Stepping']"/>
+					<field column="Capacity" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Capacity']"/>
+					<field column="Speed" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Speed']"/>
+					<field column="FormFactor" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='FormFactor']"/>
+					<field column="FreeSpace" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='FreeSpace']"/>
+					<field column="FileSystem" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='FileSystem']"/>					
+					<field column="HostingBoard" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='HostingBoard']"/>
+					<field column="RequiresDaughterBoard" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='RequiresDaughterBoard']"/>
+					<field column="SlotLayout" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='SlotLayout']"/>
+					<field column="Version" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Version']"/>
+					<field column="Partitions" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='Partitions']"/>
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='AdapterType']" column="AdapterType"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='AutoSense']" column="AutoSense"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='DHCPEnabled']" column="DHCPEnabled"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='DHCPServer']" column="DHCPServer"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='IPAddress']/Value" column="IPAddress"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='IPSubnet']/Value" column="IPSubnet"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='DefaultIPGateway']/Value" column="DefaultIPGateway"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='MACAddress']" column="MACAddress"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='DeviceID']" column="DeviceID"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='NetConnectionID']" column="NetConnectionID"/> 
+					<field xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='NetConnectionStatus']" column="NetConnectionStatus"/>
+					<field column="MaxBaudRate" xpath="/AggregateInventory/HardwareInventory/Added/DeviceClass/Device/Property[@Name='MaxBaudRate']"/>
+					
+					<field column="Software" xpath="/AggregateInventory/SoftwareInventory[@Named='Software']"/> 
+					<field column="Application" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/@Name"/>                	
+					<field column="Caption" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='Caption']"/>
+					<field column="Name" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='Name']"/>
+					<field column="IdentifyingNumber" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='IdentifyingNumber']"/>
+					<field column="Description" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='Description']"/>
+					<field column="InstallDate" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='InstallDate']"/>
+					<field column="InstallDate2" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='InstallDate2']"/>
+					<field column="InstallDate" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='InstallState']"/>
+					<field column="Vendor" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='Vendor']"/>
+					<field column="Version" xpath="/AggregateInventory/SoftwareInventory/Added/InstalledSoftware/Application/Property[@Name='Version']"/>					
+					<field column="HotFix" xpath="/AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix/@Name"/> 
+					<field column="HotFixID" xpath="/AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix/Property[@Name='HotFixID']"/>
+					<field column="ServicePackInEffect" xpath="/AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix/Property[@Name='ServicePackInEffect']"/>
+					<field column="InstalledOn" xpath="/AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix/Property[@Name='InstalledOn']"/>
+					<field column="CSName" xpath="/AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix/Property[@Name='CSName']"/>
+					<field column="FixComments" xpath="/AggregateInventory/SoftwareInventory/Added/WindowsXPHotFixes/HotFix/Property[@Name='FixComments']"/>
+					
+					
+					
+					<field column="OSName" xpath="/AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName/@Name"/>
+					<field column="Caption" xpath="/AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName/Property[@Name='Caption']"/>
+					<field column="Name" xpath="/AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName/Property[@Name='Name']"/>
+					<field column="Version" xpath="/AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName/Property[@Name='Version']"/>
+					<field column="ServicePackMajorVersion" xpath="/AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName/Property[@Name='ServicePackMajorVersion']"/>
+					<field column="ServicePackMinorVersion" xpath="/AggregateInventory/SoftwareInventory/Added/OperatingSystem/OSName/Property[@Name='ServicePackMinorVersion']"/>
+					
+            </entity>
+			
+        </entity>
+		
+		
+    </document>
+</dataConfig>

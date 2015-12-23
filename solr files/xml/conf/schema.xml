@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema version="1.5">
+<fields>
+
+<field name="DeviceClass" type="string" indexed="true" stored="true"/>
+<field name="Device" type="string" indexed="true" stored="true"/>
+<field name="Manufacturer" type="string" indexed="true" stored="true"/>
+<field name="Model" type="string" indexed="true" stored="true"/>
+<field name="NumberOfProcessors" type="string" indexed="true" stored="true"/>
+<field name="Caption" type="string" indexed="true" stored="true"/>
+<field name="TotalPhysicalMemory" type="string" indexed="true" stored="true"/>
+<field name="SystemType" type="string" indexed="true" stored="true"/>
+<field name="Description" type="string" indexed="true" stored="true"/>
+<field name="CurrentTimeZone" type="string" indexed="true" stored="true"/>
+<field name="DaylightInEffect" type="string" indexed="true" stored="true"/>
+<field name="Domain" type="string" indexed="true" stored="true"/>
+<field name="Workgroup" type="string" indexed="true" stored="true"/>
+<field name="Status" type="string" indexed="true" stored="true"/>
+<field name="Architecture" type="string" indexed="true" stored="true"/>
+<field name="AddressWidth" type="string" indexed="true" stored="true"/>
+<field name="CurrentClockSpeed" type="string" indexed="true" stored="true"/>
+<field name="ExtClock" type="string" indexed="true" stored="true"/>
+<field name="Stepping" type="string" indexed="true" stored="true"/>
+<field name="Capacity" type="string" indexed="true" stored="true"/>
+<field name="Speed" type="string" indexed="true" stored="true"/>
+<field name="FormFactor" type="string" indexed="true" stored="true"/>
+<field name="FreeSpace" type="string" indexed="true" stored="true"/>
+<field name="FileSystem" type="string" indexed="true" stored="true"/>
+<field name="HostingBoard" type="string" indexed="true" stored="true"/>
+<field name="RequiresDaughterBoard" type="string" indexed="true" stored="true"/>
+<field name="SlotLayout" type="string" indexed="true" stored="true"/>
+<field name="Version" type="string" indexed="true" stored="true"/>
+<field name="Partitions" type="string" indexed="true" stored="true"/>
+<field name="AdapterType" type="string" indexed="true" stored="true"/>
+<field name="AutoSense" type="string" indexed="true" stored="true"/>
+<field name="DHCPEnabled" type="string" indexed="true" stored="true"/>
+<field name="DHCPServer" type="string" indexed="true" stored="true"/>
+<field name="IPAddress" type="string" indexed="true" stored="true"/>
+<field name="IPSubnet" type="string" indexed="true" stored="true"/>
+<field name="DefaultIPGateway" type="string" indexed="true" stored="true"/>
+<field name="MACAddress" type="string" indexed="true" stored="true"/>
+<field name="DeviceID" type="string" indexed="true" stored="true"/>
+<field name="NetConnectionID" type="string" indexed="true" stored="true"/>
+<field name="NetConnectionStatus" type="string" indexed="true" stored="true"/>
+<field name="MaxBaudRate" type="string" indexed="true" stored="true"/>
+<field name="ManagedClient" type="string" indexed="true" stored="true"/>
+<field name="Hardware" type="string" indexed="true" stored="true"/>
+
+<field name="Application" type="string" indexed="true" stored="true"/>
+<field name="Name" type="string" indexed="true" stored="true"/>
+<field name="IdentifyingNumber" type="string" indexed="true" stored="true"/>
+<field name="InstallDate" type="string" indexed="true" stored="true"/>
+<field name="InstallDate2" type="string" indexed="true" stored="true"/>
+<field name="InstallState" type="string" indexed="true" stored="true"/>
+<field name="Vendor" type="string" indexed="true" stored="true"/>
+
+<field name="Software" type="string" indexed="true" stored="true"/>
+
+<field name="HotFix" type="string" indexed="true" stored="true"/>
+<field name="HotFixID" type="string" indexed="true" stored="true"/>
+<field name="ServicePackInEffect" type="string" indexed="true" stored="true"/>
+<field name="InstalledOn" type="string" indexed="true" stored="true"/>
+<field name="CSName" type="string" indexed="true" stored="true"/>
+<field name="FixComments" type="string" indexed="true" stored="true"/>
+
+
+
+<field name="OSName" type="string" indexed="true" stored="true"/>
+<field name="ServicePackMajorVersion" type="string" indexed="true" stored="true"/>
+<field name="ServicePackMinorVersion" type="string" indexed="true" stored="true"/>
+
+
+</fields>
+
+<types>
+
+
+<fieldType name="string" class="solr.TextField" positionIncrementGap="0">
+      <analyzer type="index">
+     <tokenizer class="solr.StandardTokenizerFactory"/>       
+     <filter class="solr.LowerCaseFilterFactory"/>
+      </analyzer>
+      
+    </fieldType>
+
+</types>
+</schema>
