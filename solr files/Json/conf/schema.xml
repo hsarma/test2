@@ -29,6 +29,7 @@
 <field name="FormFactor2" type="string" indexed="true" stored="true"/>
 </fields>
 
+<!-- a coomment -->
 <types>
 <fieldType name="string" class="solr.StrField" />
 </types>
