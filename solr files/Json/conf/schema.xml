@@ -26,6 +26,7 @@
 <field name="Capacity" type="string" indexed="true" stored="true"/>
 <field name="Speed" type="string" indexed="true" stored="true"/>
 <field name="FormFactor" type="string" indexed="true" stored="true"/>
+<field name="FormFactor2" type="string" indexed="true" stored="true"/>
 </fields>
 
 <types>
